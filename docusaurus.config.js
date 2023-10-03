@@ -53,13 +53,16 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          { to: '/download', label: 'Download', position: 'left' },
+          { to: '/docs', label: 'Docs', position: 'left' },
+          { to: '/docs/handbook', label: 'Handbook', position: 'left' },
+          { to: '/docs/subjekt', label: 'Subjekt', position: 'left' },
+          { to: '/docs/tools', label: 'Tools', position: 'left' },
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
+            href: 'https://composer.subjektify.dev/',
+            label: 'Compose',
+            position: 'right',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/subjektify',
             label: 'GitHub',
@@ -74,8 +77,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Handbook',
+                to: '/docs/handbook',
+              },
+              {
+                label: 'Subjekt',
+                to: '/docs/subjekt',
+              },
+              {
+                label: 'Tools',
+                to: '/docs/tools',
               },
             ],
           },
@@ -96,8 +107,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Download',
+                to: '/download',
               },
               {
                 label: 'GitHub',

@@ -12,13 +12,12 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <h1 className="hero__title">Download Subjektify</h1>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Subjektify Tutorial - 5min ⏱️
+            $ npm install subjektify
           </Link>
         </div>
       </div>
@@ -26,7 +25,7 @@ function HomepageHeader() {
   );
 }
 
-export default function Home(): JSX.Element {
+export default function Download(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
@@ -34,7 +33,6 @@ export default function Home(): JSX.Element {
     >
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
       </main>
     </Layout>
   );
