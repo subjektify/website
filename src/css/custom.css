@@ -30,3 +30,8 @@ body {
   font-size: 1.1em !important;
   font-style: normal;
 }
+
+
+.mb-md {
+  margin-bottom: 1em !important;
+}
