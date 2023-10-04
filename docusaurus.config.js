@@ -57,7 +57,6 @@ const config = {
           { to: '/docs/develop', label: 'Develop', position: 'left' },
           { to: '/docs/handbook', label: 'Handbook', position: 'left' },
           { to: '/docs/subjekt', label: 'Subjekt', position: 'left' },
-          { to: '/docs/tools', label: 'Tools', position: 'left' },
           {
             href: 'https://composer.subjektify.dev/',
             label: 'Compose',
@@ -87,10 +86,6 @@ const config = {
               {
                 label: 'Subjekt',
                 to: '/docs/subjekt',
-              },
-              {
-                label: 'Tools',
-                to: '/docs/tools',
               },
             ],
           },

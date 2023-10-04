@@ -16,9 +16,14 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
+            className="button button--success button--lg margin-right--sm"
+            href='https://composer.subjektify.dev/'>
+            Get Started 🚀
+          </Link>
+          <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Subjektify Tutorial - 5min ⏱️
+            to="/docs/develop/start/in-5-mins">
+            Tutorial - 5min ⏱️
           </Link>
         </div>
       </div>

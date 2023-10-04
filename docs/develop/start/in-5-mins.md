@@ -2,4 +2,4 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# Subjektify in 5 Minutes
