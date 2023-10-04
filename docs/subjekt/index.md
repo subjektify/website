@@ -23,5 +23,5 @@ behavior CutTree
 
 ## Next steps
 
-- Checkout the [Quick Start](subjekt/start) guide to learn more about Subjekt and this example.
+- Checkout the [Quick Start](./start) guide to learn more about Subjekt and this example.
 - Dive deep into the Subjekt Specification
