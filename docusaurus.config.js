@@ -54,7 +54,7 @@ const config = {
         },
         items: [
           { to: '/download', label: 'Download', position: 'left' },
-          { to: '/docs', label: 'Docs', position: 'left' },
+          { to: '/docs/develop', label: 'Develop', position: 'left' },
           { to: '/docs/handbook', label: 'Handbook', position: 'left' },
           { to: '/docs/subjekt', label: 'Subjekt', position: 'left' },
           { to: '/docs/tools', label: 'Tools', position: 'left' },
@@ -76,6 +76,10 @@ const config = {
           {
             title: 'Docs',
             items: [
+              {
+                label: 'Develop',
+                to: '/docs/develop',
+              },
               {
                 label: 'Handbook',
                 to: '/docs/handbook',
