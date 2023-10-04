@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Focus on Innovation',
-    description: 'Subjektify handles the technical intricacies, freeing you to concentrate on what truly matters—innovating and enhancing your application.'
+    description: 'Subjektify handles the technical intricacies, freeing you to concentrate on what truly matters—innovating and building your application.'
   },
   {
     title: 'Built with Flexibility',
