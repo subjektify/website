@@ -1519,6 +1519,15 @@
     "@types/react" "*"
     prop-types "^15.6.2"
 
+"@docusaurus/remark-plugin-npm2yarn@^2.4.3":
+  version "2.4.3"
+  resolved "https://registry.npmjs.org/@docusaurus/remark-plugin-npm2yarn/-/remark-plugin-npm2yarn-2.4.3.tgz"
+  integrity sha512-gBSzRPls2Nc1M+X8hTXLUJQ8mk+pTet7CGeTtgV02Hsk1G22yHYoCBW3r1aIqR27mVUHW9O5X4AN/Dt8x8Ifkg==
+  dependencies:
+    npm-to-yarn "^2.0.0"
+    tslib "^2.4.1"
+    unist-util-visit "^2.0.3"
+
 "@docusaurus/theme-classic@2.4.3":
   version "2.4.3"
   resolved "https://registry.npmjs.org/@docusaurus/theme-classic/-/theme-classic-2.4.3.tgz"
@@ -5383,6 +5392,11 @@ npm-run-path@^4.0.1:
   dependencies:
     path-key "^3.0.0"
 
+npm-to-yarn@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.npmjs.org/npm-to-yarn/-/npm-to-yarn-2.1.0.tgz"
+  integrity sha512-2C1IgJLdJngq1bSER7K7CGFszRr9s2rijEwvENPEgI0eK9xlD3tNwDc0UJnRj7FIT2aydWm72jB88uVswAhXHA==
+
 nprogress@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npmjs.org/nprogress/-/nprogress-0.2.0.tgz"
@@ -7218,7 +7232,7 @@ trough@^1.0.0:
   resolved "https://registry.npmjs.org/trough/-/trough-1.0.5.tgz"
   integrity sha512-rvuRbTarPXmMb79SmzEp8aqXNKcK+y0XaB298IXueQ8I2PsrATcPBCSPyK/dDNa2iWOhKlfNnOjdAOTBU/nkFA==
 
-tslib@^2.0.3, tslib@^2.1.0, tslib@^2.4.0:
+tslib@^2.0.3, tslib@^2.1.0, tslib@^2.4.0, tslib@^2.4.1:
   version "2.6.2"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz"
   integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==

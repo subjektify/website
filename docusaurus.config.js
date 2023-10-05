@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
   url: 'https://subjektify.dev',
   baseUrl: '/',
-  
+
   organizationName: 'subjektify',
   projectName: 'dapp',
 
@@ -30,9 +30,21 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          remarkPlugins: [
+            [require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }],
+          ],
+        },
+        pages: {
+          remarkPlugins: [require('@docusaurus/remark-plugin-npm2yarn')],
         },
         blog: {
           showReadingTime: true,
+          remarkPlugins: [
+            [
+              require('@docusaurus/remark-plugin-npm2yarn'),
+              { converters: ['pnpm'] },
+            ],
+          ]
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
