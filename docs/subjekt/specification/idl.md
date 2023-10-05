@@ -2,6 +2,9 @@
 sidebar_position: 6
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Subjekt IDL
 
 Subjekt models are defined using either the Subjekt interface definition language (IDL) or the JSON abstract syntax tree (AST). This document defines the syntax and [**ABNF grammar**](https://tools.ietf.org/html/rfc5234.html) for defining models using the Subjekt IDL.
@@ -10,9 +13,9 @@ Subjekt models are defined using either the Subjekt interface definition languag
 
 The Subjekt IDL is made up of 3, ordered blocks, each of which is optional:
 
-1. Metadata: applies metadata to the entire model.
-2. Uses: The use section of the IDL is used to import shapes into the current namespace so that they can be referred to using a relative shape ID.
-3. Shapes: where shapes and traits are defined. The `use` keyword can be defined before shapes or traits to refer to shapes in other namespaces using a shorter name.
+1. **Metadata Block**: applies metadata to the entire model.
+2. **Use Block**: The use section of the IDL is used to import shapes into the current namespace so that they can be referred to using a relative shape ID.
+3. **Shape Block**: where shapes and traits are defined. The `use` keyword can be defined before shapes or traits to refer to shapes in other namespaces using a shorter name.
 
 The following example defines a basic model file:
 
