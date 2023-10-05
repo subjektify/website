@@ -16,6 +16,9 @@ The Subjekt IDL is made up of 3, ordered blocks, each of which is optional:
 
 The following example defines a basic model file:
 
+<Tabs>
+<TabItem value="subjekt" label="Subjekt">
+
 ```subjekt
 // (1) Metadata block
 metadata foo = "bar"
@@ -32,7 +35,8 @@ structure MyStructure {
 }
 ```
 
-or in JSON:
+</TabItem>
+<TabItem value="json" label="JSON">
 
 ```json
 {
@@ -54,6 +58,9 @@ or in JSON:
     }
 }
 ```
+
+</TabItem>
+</Tabs>
 
 ## Language Components
 
