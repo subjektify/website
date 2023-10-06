@@ -5,7 +5,7 @@ sidebar_position: 6
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Subjekt IDL
+# Subjekt Grammar
 
 Subjekt models are defined using either the Subjekt interface definition language (IDL) or the JSON abstract syntax tree (AST). This document defines the syntax and [**ABNF grammar**](https://tools.ietf.org/html/rfc5234.html) for defining models using the Subjekt IDL.
 

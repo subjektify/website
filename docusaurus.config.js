@@ -23,6 +23,11 @@ const config = {
     locales: ['en'],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+
   presets: [
     [
       'classic',
@@ -71,13 +76,14 @@ const config = {
           { to: '/docs/subjekt', label: 'Subjekt', position: 'left' },
           {
             href: 'https://composer.subjektify.dev/',
-            label: 'Compose',
             position: 'right',
+            label: '🚀 Compose'
           },
           {
             href: 'https://github.com/subjektify',
-            label: 'GitHub',
             position: 'right',
+            className: "header-github-link",
+            "aria-label": "GitHub"
           },
         ],
       },
