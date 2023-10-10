@@ -121,6 +121,23 @@ const config = {
             ],
           },
           {
+            title: 'Quick Links',
+            items: [
+              {
+                label: 'Composer',
+                href: 'https://composer.subjektify.dev/',
+              },
+              {
+                label: 'Blueprints',
+                href: 'https://blueprints.subjektify.dev/',
+              },
+              {
+                label: 'Plugins',
+                href: 'https://plugins.subjektify.dev/',
+              },
+            ],
+          },
+          {
             title: 'More',
             items: [
               {
