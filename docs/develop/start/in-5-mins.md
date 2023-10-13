@@ -39,15 +39,6 @@ npm install -g subjektify
 subjektify create my.digital.pet --blueprint subjektify/digital.pet
 ```
 
-### 3. Building and Compilation
-
-Navigate into your new project folder and build your dApp.
-
-```bash
-cd my.digital.pet
-subjektify build
-```
-
 #### Subjekt File Highlights
 
 Your `.subjekt` file will define the state and behavior of your digital pet smart contract.
@@ -62,6 +53,15 @@ subject DigitalPet {
         // Gifting function and related logic
     }
 }
+```
+
+### 3. Building and Compilation
+
+Navigate into your new project folder and build your dApp.
+
+```bash
+cd my.digital.pet
+subjektify build
 ```
 
 #### Transpiled Smart Contract Highlights
