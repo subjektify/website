@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Subjekt
 
-**Subjekt** is a declarative language for defining subjects, smart contracts, and SDKs.
+**Subjekt** is a protocol-agnostic, declarative language designed for defining subjects, smart contracts, and SDKs.
 
 ```subjekt title="Example Subject declaration"
 subject Tree {
@@ -33,7 +33,7 @@ behavior CutTree
 <h3>🌐 Protocol-Agnostic</h3>
 </div>
 <div class="card__body">
-<p>Subjektify is designed to be blockchain and network agnostic, offering you the freedom to choose your underlying technology stack.</p>
+<p>Subjekt is designed to be blockchain and network agnostic, offering you the freedom to choose your underlying technology stack.</p>
 </div>
 </div>
 </div>
@@ -72,7 +72,7 @@ behavior CutTree
 <h3>🎉 Ease of Use</h3>
 </div>
 <div class="card__body">
-<p>With intuitive tooling including the Composer and Visual Studio Code extension, getting started with Subjektify is a breeze.</p>
+<p>With intuitive tooling including the <a href='https://composer.subjektify.dev'>Composer dApp</a> and Visual Studio Code extension, getting started with Subjektify is a breeze.</p>
 </div>
 </div>
 </div>
