@@ -14,7 +14,7 @@ Subjektify is a meticulously crafted toolkit designed to remove the complexities
 
 The landscape of dApp development is fraught with challenges, from managing smart contracts to ensuring a secure and user-friendly interface. Subjektify addresses these challenges head-on, offering a seamless development experience that lets you concentrate on building feature-rich, high-performance dApps.
 
-### Example: Quick Setup
+### Example: Quick Start
 
 Starting a new dApp project is incredibly simple with Subjektify. With just a single command, you can scaffold a new project, complete with all the configurations and boilerplate code you'll need:
 
