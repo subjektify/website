@@ -6,9 +6,9 @@ sidebar_position: 2
 
 This document is a tutorial that introduces the Subjekt interface definition language (IDL). By reading this tutorial, you will learn:
 
-How to create a Subjekt model
-How to define shapes, including Subjects, and contract shapes
-How to apply traits to shapes
+- How to create a Subjekt model
+- How to define shapes, including Subjects, and contract shapes
+- How to apply traits to shapes
 
 ## What is Subjekt?
 
