@@ -8,9 +8,41 @@ The Subjekt model describes the Subjekt semantic model and the files used to cre
 
 ## Subjekt Overview
 
-```mermaid title="Figure 1.1 Subjekt's Semantic Model"
-graph LR
-  A[Subjekt Semantic Model] -->|Described By| B[Subjekt IDL]
-  B -->|Compiles To| C[AST JSON]
-  C -->|Interpreted By| A
+```mermaid title="Subjekt's Semantic Model"
+erDiagram
+    SUBJECT {
+        string id "Unique identifier"
+        string version "Version number"
+    }
+    STATE {
+        string id "Unique identifier"
+    }
+    BEHAVIOR {
+        string id "Unique identifier"
+    }
+    INPUT {
+        string id "Unique identifier"
+        string type "Data type"
+    }
+    OUTPUT {
+        string id "Unique identifier"
+        string type "Data type"
+    }
+    TRIGGER {
+        string id "Unique identifier"
+        string condition "Trigger condition"
+    }
+    SUBSCRIPTION {
+        string id "Unique identifier"
+        string source "Source subject or state"
+    }
+    SUBJECT ||--o{ STATE : "contains"
+    SUBJECT ||--o{ BEHAVIOR : "contains"
+    SUBJECT ||--o{ TRIGGER : "contains"
+    SUBJECT ||--o{ SUBSCRIPTION : "contains"
+    BEHAVIOR ||--o{ INPUT : "accepts"
+    BEHAVIOR ||--o{ OUTPUT : "produces"
+    BEHAVIOR ||--o{ TRIGGER : "activated-by"
+    STATE ||--o{ SUBSCRIPTION : "notifies"
+    INPUT ||--|{ OUTPUT : "transforms-to"
 ```
