@@ -152,7 +152,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Subjektify Labs Ltd.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Subjektify Labs`,
       },
       prism: {
         theme: lightCodeTheme,
