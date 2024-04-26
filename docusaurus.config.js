@@ -4,6 +4,8 @@
 const { themes } = require('prism-react-renderer');
 const lightCodeTheme = themes.github;
 const darkCodeTheme = themes.dracula;
+const fs = require('fs');
+const resourcesHTML = fs.readFileSync('./src/snippets/resources.html', 'utf-8');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -75,6 +77,18 @@ const config = {
           { to: '/docs/develop', label: 'Develop', position: 'left' },
           { to: '/docs/handbook', label: 'Handbook', position: 'left' },
           { to: '/docs/subjekt', label: 'Subjekt', position: 'left' },
+          {
+            label: 'Resources',
+            type: 'dropdown',
+            className: 'dyte-dropdown resources-dropdown',
+            items: [
+              {
+                type: 'html',
+                value: resourcesHTML,
+                className: 'dyte-dropdown',
+              },
+            ],
+          },
           {
             href: 'https://composer.subjektify.dev/',
             position: 'right',
