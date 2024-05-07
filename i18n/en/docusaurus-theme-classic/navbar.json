@@ -1,0 +1,46 @@
+{
+  "title": {
+    "message": "Subjektify",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Subjektify Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Learn": {
+    "message": "Learn",
+    "description": "Navbar item with label Learn"
+  },
+  "item.label.Tools": {
+    "message": "Tools",
+    "description": "Navbar item with label Tools"
+  },
+  "item.label.Resources": {
+    "message": "Resources",
+    "description": "Navbar item with label Resources"
+  },
+  "item.label.🚀 Compose": {
+    "message": "🚀 Compose",
+    "description": "Navbar item with label 🚀 Compose"
+  },
+  "item.label.Guides": {
+    "message": "Guides",
+    "description": "Navbar item with label Guides"
+  },
+  "item.label.Subjekt Specification": {
+    "message": "Subjekt Specification",
+    "description": "Navbar item with label Subjekt Specification"
+  },
+  "item.label.Release Notes": {
+    "message": "Release Notes",
+    "description": "Navbar item with label Release Notes"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Videos": {
+    "message": "Videos",
+    "description": "Navbar item with label Videos"
+  }
+}

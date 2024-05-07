@@ -1,0 +1,42 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.developSidebar.category.Get Started": {
+    "message": "Get Started",
+    "description": "The label for category Get Started in sidebar developSidebar"
+  },
+  "sidebar.developSidebar.category.Project Configuration": {
+    "message": "Project Configuration",
+    "description": "The label for category Project Configuration in sidebar developSidebar"
+  },
+  "sidebar.developSidebar.category.Tutorials": {
+    "message": "Tutorials",
+    "description": "The label for category Tutorials in sidebar developSidebar"
+  },
+  "sidebar.developSidebar.category.Advanced Topics": {
+    "message": "Advanced Topics",
+    "description": "The label for category Advanced Topics in sidebar developSidebar"
+  },
+  "sidebar.developSidebar.category.Reference": {
+    "message": "Reference",
+    "description": "The label for category Reference in sidebar developSidebar"
+  },
+  "sidebar.subjektSidebar.category.Subjekt Specification": {
+    "message": "Subjekt Specification",
+    "description": "The label for category Subjekt Specification in sidebar subjektSidebar"
+  },
+  "sidebar.subjektSidebar.category.Types": {
+    "message": "Types",
+    "description": "The label for category Types in sidebar subjektSidebar"
+  },
+  "sidebar.subjektSidebar.category.Traits": {
+    "message": "Traits",
+    "description": "The label for category Traits in sidebar subjektSidebar"
+  },
+  "sidebar.learnSidebar.category.subject": {
+    "message": "subject",
+    "description": "The label for category subject in sidebar learnSidebar"
+  }
+}

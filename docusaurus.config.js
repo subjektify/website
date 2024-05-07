@@ -35,7 +35,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: './sidebars.js',
           remarkPlugins: [
             [require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }],
           ],
@@ -73,11 +73,14 @@ const config = {
         items: [
           { to: '/docs/learn', label: 'Learn', position: 'left' },
           { to: '/docs/tools', label: 'Tools', position: 'left' },
-          { type: 'dropdown', label: 'Resources', position: 'left', items: [
-            { to: '/docs/guides', label: 'Guides' },
-            { to: '/docs/subjekt', label: 'Subjekt Specification' },
-            { to: '/blog', label: 'Blog' }
-          ]},
+          {
+            type: 'dropdown', label: 'Resources', position: 'left', items: [
+              { to: '/docs/release-notes', label: 'Release Notes' },
+              { to: '/docs/subjekt', label: 'Subjekt Specification' },
+              { to: '/blog', label: 'Blog' },
+              { href: 'https://www.youtube.com/@SubjektifyLabs', label: 'Videos' }
+            ]
+          },
           {
             href: 'https://composer.subjektify.dev/',
             position: 'right',
