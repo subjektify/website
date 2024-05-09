@@ -102,6 +102,3 @@ Your smart contract is live! Boot up your local server to give your dApp a whirl
 npm start
 ```
 
-## Wrapping Up
-
-Congratulations! You've crafted a dApp that lets you gift digital pets to your friends, and it all happened in less than 5 minutes. Ready for the next step? Dive deeper into the [Subjektify Handbook](/docs/handbook) or learn the [`subjekt` specification](/docs/subjekt).

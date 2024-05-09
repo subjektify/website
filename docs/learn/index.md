@@ -23,10 +23,16 @@ Understand Subjektify in just a few minutes by following our fast track guide:
 
 1. Install Node.js from [Node.js official website](https://nodejs.org/en/download/).
 2. Create up your first Subjektify project:
-   
+
    ```bash
-   npx subjektify create my-dapp
+   npx subjektify create my-dapp -b subjektify/react-hardhat-typescript
    ```
+
+:::tip
+
+Subjektify enhances modularity and extensibility by allowing you to utilize [Blueprints](https://blueprints.subjektify.dev) to jumpstart your project efficiently.
+
+:::
 
 3. Navigate into your project directory and start the development server:
 
@@ -36,16 +42,6 @@ Understand Subjektify in just a few minutes by following our fast track guide:
    ```
 
 4. Open [`http://localhost:3000`](http://localhost:3000) in your browser and start exploring the Subjektify toolkit.
-
-:::tip
-
-Subjektify also allows you to use [Blueprints](https://blueprints.subjektify.dev) to jumpstart your project. For example, to create a new dApp with a React frontend and Hardhat for smart contract management in Typescript, you can use:
-
-```bash
-npx subjektify create my-dapp -b subjektify/react-hardhat-typescript
-```
-
-:::
 
 ## Explore More {#explore-more}
 

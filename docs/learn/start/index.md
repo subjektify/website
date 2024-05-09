@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # Getting Started
@@ -29,7 +29,7 @@ This command installs the Subjektify CLI globally on your system, allowing you t
 Once Subjektify CLI is installed, you can create a new project by running:
 
 ```bash
-subjektify init my-first-dapp
+subjektify create my-first-dapp
 ```
 
 This command sets up a new dApp project named `my-first-dapp` in a directory with the same name. The setup includes all necessary configurations and a sample smart contract to get you started.
