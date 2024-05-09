@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[8536],{4393:e=>{e.exports=JSON.parse('{"label":"dapp","permalink":"/blog/tags/dapp","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
