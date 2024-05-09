@@ -1,9 +1,8 @@
-# Subjektify Website
+# Subjektify's Website
 
-> [!NOTE]
-> Building the Future of Decentralized Applications
-> 
-> Check it out (https://subjektify.dev)[https://subjektify.dev]
+Building the Future of Decentralized Applications
+ 
+[Check it out](https://subjektify.dev)
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 

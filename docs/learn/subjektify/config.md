@@ -1,1 +1,1 @@
-# Configuration
+# `subjektify.json`

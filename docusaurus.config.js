@@ -75,6 +75,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          { to: '/download', label: 'Download', position: 'left' },
           { to: '/docs/learn', label: 'Learn', position: 'left' },
           { to: '/docs/tools', label: 'Tools', position: 'left' },
           {
