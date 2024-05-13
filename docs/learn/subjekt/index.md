@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
-# Subjekt
+# Understanding Subjekt
 
 **Subjekt** is a protocol-agnostic, declarative language designed for defining subjects, smart contracts, and SDKs.
 
@@ -82,5 +82,5 @@ behavior CutTree
 
 ## Next steps
 
-- Checkout the [Quick Start](/docs/learn/subjekt/guides/start) guide to learn more about Subjekt and this example.
-- Dive deep into the [Subjekt Specification](/docs/learn/subjekt/specification)
+- Checkout the [Quick Start](/docs/learn/subjekt/start) guide to learn more about Subjekt and this example.
+- Dive deep into the [Subjekt Specification](/docs/reference/subjekt)

@@ -1,1 +1,1 @@
-# `subjektify.json`
+# `subjektify.config.js`

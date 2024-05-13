@@ -75,9 +75,9 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          { to: '/download', label: 'Download', position: 'left' },
           { to: '/docs/learn', label: 'Learn', position: 'left' },
           { to: '/docs/tools', label: 'Tools', position: 'left' },
+          { to: '/docs/reference', label: 'Reference', position: 'left' },
           {
             type: 'dropdown', label: 'Resources', position: 'left', items: [
               { to: '/docs/release-notes', label: 'Release Notes' },

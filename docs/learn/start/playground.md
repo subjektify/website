@@ -8,7 +8,7 @@ Playgrounds allow you to run Subjektify in your browser, without installing anyt
 
 They are mostly useful for:
 
-- Testing Docusaurus
+- Testing Subjektify
 - Reporting bugs
 
 Choose one of the available options below.
