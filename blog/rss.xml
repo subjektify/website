@@ -4,33 +4,125 @@
         <title>Subjektify Blog</title>
         <link>https://subjektify.dev/blog</link>
         <description>Subjektify Blog</description>
-        <lastBuildDate>Mon, 06 May 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 May 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[The Vision for Subjektify]]></title>
+            <link>https://subjektify.dev/blog/vision</link>
+            <guid>https://subjektify.dev/blog/vision</guid>
+            <pubDate>Wed, 15 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to the future of decentralized application development! At Subjektify, we are driven by the mission to revolutionize how developers create, manage, and scale decentralized applications (dApps). By leveraging a subject-oriented programming approach, Subjektify provides a comprehensive suite of tools designed to simplify and enhance the dApp development process. In this post, we outline our roadmap and long-term vision, highlighting our key projects and future innovations, including the highly anticipated Composer dApp.]]></description>
+            <content:encoded><![CDATA[<p>Welcome to the future of decentralized application development! At Subjektify, we are driven by the mission to revolutionize how developers create, manage, and scale decentralized applications (dApps). By leveraging a subject-oriented programming approach, Subjektify provides a comprehensive suite of tools designed to simplify and enhance the dApp development process. In this post, we outline our roadmap and long-term vision, highlighting our key projects and future innovations, including the highly anticipated Composer dApp.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-subjektify-roadmap">The Subjektify Roadmap<a href="https://subjektify.dev/blog/vision#the-subjektify-roadmap" class="hash-link" aria-label="Direct link to The Subjektify Roadmap" title="Direct link to The Subjektify Roadmap">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-strengthening-the-core-tools">1. Strengthening the Core Tools<a href="https://subjektify.dev/blog/vision#1-strengthening-the-core-tools" class="hash-link" aria-label="Direct link to 1. Strengthening the Core Tools" title="Direct link to 1. Strengthening the Core Tools">​</a></h3>
+<p>Our primary focus is to continually improve and expand the core components of Subjektify:</p>
+<ul>
+<li><strong>Subjektify CLI</strong>: Enhancements to our command-line interface for better usability and more powerful features.</li>
+<li><strong>Subjekt IDL</strong>: Ongoing refinement of the interface definition language to support more complex data structures and behaviors.</li>
+<li><strong>Plugins and Blueprints</strong>: Regular updates and new additions to our library of plugins and blueprints to streamline development and ensure adherence to best practices.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-enhancing-developer-experience">2. Enhancing Developer Experience<a href="https://subjektify.dev/blog/vision#2-enhancing-developer-experience" class="hash-link" aria-label="Direct link to 2. Enhancing Developer Experience" title="Direct link to 2. Enhancing Developer Experience">​</a></h3>
+<p>We aim to create a seamless and enjoyable experience for developers through:</p>
+<ul>
+<li><strong>Comprehensive Documentation</strong>: Expanding our tutorials, API references, and integration guides to cover all aspects of Subjektify.</li>
+<li><strong>Community Engagement</strong>: Building a strong community where developers can share knowledge, contribute to the project, and collaborate on new features.</li>
+<li><strong>Educational Resources</strong>: Offering webinars, workshops, and online courses to help developers master Subjektify and decentralized application development.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-integrating-advanced-features">3. Integrating Advanced Features<a href="https://subjektify.dev/blog/vision#3-integrating-advanced-features" class="hash-link" aria-label="Direct link to 3. Integrating Advanced Features" title="Direct link to 3. Integrating Advanced Features">​</a></h3>
+<p>To keep pace with the rapidly evolving blockchain landscape, we plan to integrate advanced features such as:</p>
+<ul>
+<li><strong>Cross-Chain Compatibility</strong>: Enabling dApps to operate seamlessly across multiple blockchain platforms.</li>
+<li><strong>Decentralized Storage Solutions</strong>: Incorporating support for decentralized storage networks like IPFS and Arweave.</li>
+<li><strong>Enhanced Security</strong>: Implementing advanced security measures and auditing tools to ensure the integrity and safety of dApps.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-composer-dapp-a-game-changer">The Composer dApp: A Game Changer<a href="https://subjektify.dev/blog/vision#the-composer-dapp-a-game-changer" class="hash-link" aria-label="Direct link to The Composer dApp: A Game Changer" title="Direct link to The Composer dApp: A Game Changer">​</a></h2>
+<p>One of the most exciting projects on our roadmap is the Composer dApp, an intuitive online platform that allows users to create and manage subjects directly within their browsers. The Composer dApp aims to:</p>
+<ul>
+<li><strong>Simplify Subject Creation</strong>: With a user-friendly interface, developers and non-developers alike can easily define and manage subjects without writing a single line of code.</li>
+<li><strong>Real-Time Collaboration</strong>: Teams can work together in real-time to build and refine their dApp architectures, fostering greater collaboration and innovation.</li>
+<li><strong>Instant Deployment</strong>: Once subjects are created, they can be instantly deployed to various blockchain networks, significantly reducing development time.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="key-features-of-the-composer-dapp">Key Features of the Composer dApp<a href="https://subjektify.dev/blog/vision#key-features-of-the-composer-dapp" class="hash-link" aria-label="Direct link to Key Features of the Composer dApp" title="Direct link to Key Features of the Composer dApp">​</a></h3>
+<ul>
+<li><strong>Drag-and-Drop Interface</strong>: Build and modify subjects using a simple drag-and-drop interface.</li>
+<li><strong>Predefined Templates</strong>: Access a library of predefined templates for common dApp components, speeding up the development process.</li>
+<li><strong>Visual Debugging Tools</strong>: Utilize visual debugging tools to identify and resolve issues quickly.</li>
+<li><strong>Integration with Subjektify CLI</strong>: Seamlessly integrate with the Subjektify CLI for advanced features and functionalities.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="long-term-vision">Long-Term Vision<a href="https://subjektify.dev/blog/vision#long-term-vision" class="hash-link" aria-label="Direct link to Long-Term Vision" title="Direct link to Long-Term Vision">​</a></h2>
+<p>Looking further ahead, our vision for Subjektify encompasses several ambitious goals:</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-universal-adoption">1. Universal Adoption<a href="https://subjektify.dev/blog/vision#1-universal-adoption" class="hash-link" aria-label="Direct link to 1. Universal Adoption" title="Direct link to 1. Universal Adoption">​</a></h3>
+<p>We aspire to make Subjektify the go-to toolkit for dApp development, trusted by developers worldwide for its ease of use, flexibility, and powerful features.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-ecosystem-growth">2. Ecosystem Growth<a href="https://subjektify.dev/blog/vision#2-ecosystem-growth" class="hash-link" aria-label="Direct link to 2. Ecosystem Growth" title="Direct link to 2. Ecosystem Growth">​</a></h3>
+<p>We aim to foster a thriving ecosystem of developers, contributors, and partners who can build upon and extend Subjektify, driving innovation and expanding its capabilities.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-decentralized-governance">3. Decentralized Governance<a href="https://subjektify.dev/blog/vision#3-decentralized-governance" class="hash-link" aria-label="Direct link to 3. Decentralized Governance" title="Direct link to 3. Decentralized Governance">​</a></h3>
+<p>As Subjektify grows, we plan to transition to a decentralized governance model, allowing the community to have a greater say in the project's direction and development.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-continuous-innovation">4. Continuous Innovation<a href="https://subjektify.dev/blog/vision#4-continuous-innovation" class="hash-link" aria-label="Direct link to 4. Continuous Innovation" title="Direct link to 4. Continuous Innovation">​</a></h3>
+<p>We are committed to staying at the forefront of blockchain and decentralized application technologies, continually innovating and integrating new advancements to keep Subjektify cutting-edge.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="https://subjektify.dev/blog/vision#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>The future of Subjektify is bright, and we are excited to embark on this journey with our community. By focusing on enhancing our core tools, improving the developer experience, and integrating advanced features, we are poised to make a significant impact on the world of decentralized applications. The Composer dApp represents a significant milestone in our roadmap, making subject creation and management more accessible than ever before. Together, we can build a decentralized future, one subject at a time.</p>
+<p>Stay tuned for more updates, and join us in shaping the future of dApp development with Subjektify!</p>]]></content:encoded>
+            <category>web3</category>
+            <category>dapp</category>
+            <category>subject</category>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://subjektify.dev/blog/welcome</link>
             <guid>https://subjektify.dev/blog/welcome</guid>
             <pubDate>Mon, 06 May 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Greetings to all innovators, developers, and blockchain enthusiasts! We are thrilled to introduce you to Subjektify, a groundbreaking ecosystem designed to transform the way decentralized applications (dApps) are built, deployed, and managed. With the launch of Subjektify, we aim to empower developers by simplifying complex processes and fostering an environment of creativity and efficiency in blockchain development.]]></description>
-            <content:encoded><![CDATA[<p>Greetings to all innovators, developers, and blockchain enthusiasts! We are thrilled to introduce you to <strong>Subjektify</strong>, a groundbreaking ecosystem designed to transform the way decentralized applications (dApps) are built, deployed, and managed. With the launch of Subjektify, we aim to empower developers by simplifying complex processes and fostering an environment of creativity and efficiency in blockchain development.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-subjektify">Why Subjektify?<a href="https://subjektify.dev/blog/welcome#why-subjektify" class="hash-link" aria-label="Direct link to Why Subjektify?" title="Direct link to Why Subjektify?">​</a></h2>
-<p>In the evolving world of blockchain and decentralized systems, the development of dApps presents unique challenges, including complex state management, contract interactions, and maintaining scalable and secure code. Subjektify is our answer to these challenges, offering a comprehensive suite of tools that cater to the needs of modern dApp developers.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="simplified-development-process">Simplified Development Process<a href="https://subjektify.dev/blog/welcome#simplified-development-process" class="hash-link" aria-label="Direct link to Simplified Development Process" title="Direct link to Simplified Development Process">​</a></h3>
-<p>Subjektify integrates advanced tools and frameworks into a single, cohesive environment. By abstracting the complexities associated with web3 technologies, we provide a clear path from idea to implementation. Our toolkit includes everything from a specialized Interface Definition Language (IDL) — designed to define and manage the components of your dApps — to a robust set of command-line tools that streamline the build and deployment processes.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhanced-modularity-with-subject-oriented-programming-sop">Enhanced Modularity with Subject-Oriented Programming (SOP)<a href="https://subjektify.dev/blog/welcome#enhanced-modularity-with-subject-oriented-programming-sop" class="hash-link" aria-label="Direct link to Enhanced Modularity with Subject-Oriented Programming (SOP)" title="Direct link to Enhanced Modularity with Subject-Oriented Programming (SOP)">​</a></h3>
-<p>At the heart of Subjektify is the innovative use of Subject-Oriented Programming (SOP). This approach allows developers to encapsulate functionality into discrete 'subjects', making projects easier to manage, scale, and evolve over time. Each subject can be independently developed, tested, and optimized, enhancing both productivity and maintainability.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="community-and-collaboration">Community and Collaboration<a href="https://subjektify.dev/blog/welcome#community-and-collaboration" class="hash-link" aria-label="Direct link to Community and Collaboration" title="Direct link to Community and Collaboration">​</a></h3>
-<p>Subjektify is not just a toolkit; it's a platform for collaboration. We believe in the power of community-driven development and open-source principles. Our ecosystem encourages sharing, feedback, and contributions from developers across the globe. Whether you're looking to build your first dApp or you're an experienced developer looking to push the boundaries of what's possible, Subjektify is designed for you.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-can-you-expect-from-subjektify">What Can You Expect from Subjektify?<a href="https://subjektify.dev/blog/welcome#what-can-you-expect-from-subjektify" class="hash-link" aria-label="Direct link to What Can You Expect from Subjektify?" title="Direct link to What Can You Expect from Subjektify?">​</a></h2>
+            <description><![CDATA[Welcome to the official blog of Subjektify! We are thrilled to introduce you to our innovative suite of tools designed to streamline and revolutionize the development of decentralized applications (dApps). Our mission is to empower developers with the resources and capabilities they need to build robust, scalable, and secure dApps efficiently. Whether you're a seasoned blockchain developer or just starting your journey in decentralized technologies, Subjektify has something for you.]]></description>
+            <content:encoded><![CDATA[<p>Welcome to the official blog of Subjektify! We are thrilled to introduce you to our innovative suite of tools designed to streamline and revolutionize the development of decentralized applications (dApps). Our mission is to empower developers with the resources and capabilities they need to build robust, scalable, and secure dApps efficiently. Whether you're a seasoned blockchain developer or just starting your journey in decentralized technologies, Subjektify has something for you.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-subjektify">What is Subjektify?<a href="https://subjektify.dev/blog/welcome#what-is-subjektify" class="hash-link" aria-label="Direct link to What is Subjektify?" title="Direct link to What is Subjektify?">​</a></h2>
+<p>Subjektify is a comprehensive toolkit that leverages a subject-oriented programming approach to simplify the creation and management of dApps. Our platform includes a powerful interface definition language (IDL) called Subjekt, which helps define and manage the data structures, states, and behaviors that make up a dApp's architecture.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="key-components-of-subjektify">Key Components of Subjektify<a href="https://subjektify.dev/blog/welcome#key-components-of-subjektify" class="hash-link" aria-label="Direct link to Key Components of Subjektify" title="Direct link to Key Components of Subjektify">​</a></h3>
 <ul>
-<li><strong>Comprehensive Tooling</strong>: From project initialization and development to testing and deployment, all the tools you need are at your fingertips.</li>
-<li><strong>Innovative Features</strong>: Leverage features like real-time state management, integrated smart contract testing, and out-of-the-box support for multiple blockchain platforms.</li>
-<li><strong>Active Support and Documentation</strong>: Access detailed documentation, tutorials, and community forums. Our team is committed to providing the support you need to succeed.</li>
+<li><strong>Subjektify CLI</strong>: Our command-line tool aids developers in scaffolding, developing, and managing their dApp projects with ease.</li>
+<li><strong>Subjekt IDL</strong>: This interface definition language structures and defines the components of a decentralized application, making development more intuitive and organized.</li>
+<li><strong>Plugins and Blueprints</strong>: These tools and templates provide additional functionalities and predefined architectures to speed up development and ensure best practices.</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="get-involved">Get Involved<a href="https://subjektify.dev/blog/welcome#get-involved" class="hash-link" aria-label="Direct link to Get Involved" title="Direct link to Get Involved">​</a></h2>
-<p>We are just getting started, and the journey ahead is filled with endless possibilities. We invite you to join us in shaping the future of decentralized applications. Welcome to Subjektify — let’s build the decentralized world of tomorrow, together!</p>]]></content:encoded>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-subjektify">Why Subjektify?<a href="https://subjektify.dev/blog/welcome#why-subjektify" class="hash-link" aria-label="Direct link to Why Subjektify?" title="Direct link to Why Subjektify?">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="modularity-and-extensibility">Modularity and Extensibility<a href="https://subjektify.dev/blog/welcome#modularity-and-extensibility" class="hash-link" aria-label="Direct link to Modularity and Extensibility" title="Direct link to Modularity and Extensibility">​</a></h3>
+<p>Subjektify is built with a focus on modularity and extensibility. Through the use of plugins and blueprints, developers can customize and extend the toolkit to fit their specific needs, allowing for a highly personalized development experience.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="decentralized-application-focus">Decentralized Application Focus<a href="https://subjektify.dev/blog/welcome#decentralized-application-focus" class="hash-link" aria-label="Direct link to Decentralized Application Focus" title="Direct link to Decentralized Application Focus">​</a></h3>
+<p>Designed specifically for the development of dApps, Subjektify integrates seamlessly with blockchain technologies and decentralized data architectures. This focus ensures that every feature and tool is optimized for the unique requirements of decentralized applications.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="community-driven-development">Community-Driven Development<a href="https://subjektify.dev/blog/welcome#community-driven-development" class="hash-link" aria-label="Direct link to Community-Driven Development" title="Direct link to Community-Driven Development">​</a></h3>
+<p>We believe in the power of community. Subjektify encourages contributions from developers around the world, driven by community feedback and collaboration. Our goal is to create a platform that evolves with the needs of its users, continually improving and adapting to new challenges and innovations.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="getting-started-with-subjektify">Getting Started with Subjektify<a href="https://subjektify.dev/blog/welcome#getting-started-with-subjektify" class="hash-link" aria-label="Direct link to Getting Started with Subjektify" title="Direct link to Getting Started with Subjektify">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="creating-your-first-dapp">Creating Your First dApp<a href="https://subjektify.dev/blog/welcome#creating-your-first-dapp" class="hash-link" aria-label="Direct link to Creating Your First dApp" title="Direct link to Creating Your First dApp">​</a></h3>
+<p>Getting started with Subjektify is easy. Scaffold a new project from a blueprint to quickly get started:</p>
+<ol>
+<li>
+<p><strong>Create a new project</strong>:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npx subjektify create my-dapp -b react-hardhat-typescript</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">cd my-dapp</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p><strong>Define your application structure</strong>:</p>
+<div class="language-subjekt codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockTitle_Ktv7">/subjects/main.subjekt</div><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-subjekt codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token type">string</span><span class="token plain"> title </span><span class="token operators">=</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Hello World"</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p><strong>Generate code</strong>:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm run generate</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p><strong>Run your dApp</strong>:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm start</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="join-the-subjektify-community">Join the Subjektify Community<a href="https://subjektify.dev/blog/welcome#join-the-subjektify-community" class="hash-link" aria-label="Direct link to Join the Subjektify Community" title="Direct link to Join the Subjektify Community">​</a></h2>
+<p>We are building a vibrant community of developers, contributors, and enthusiasts. Here are a few ways you can get involved:</p>
+<ul>
+<li><strong>Create your own blueprints and plugins</strong>: Create your customized blueprints or plugins and share it with the world.</li>
+<li><strong>Contribute to the project</strong>: Check out our GitHub repository and start contributing to Subjektify. We welcome all kinds of contributions, from code improvements to documentation updates.</li>
+<li><strong>Follow Us on social media</strong>: Stay up to date with the latest news, updates, and tutorials by following us on Twitter, Youtube, and Reddit.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="looking-ahead">Looking Ahead<a href="https://subjektify.dev/blog/welcome#looking-ahead" class="hash-link" aria-label="Direct link to Looking Ahead" title="Direct link to Looking Ahead">​</a></h2>
+<p>The launch of Subjektify is just the beginning. We have an exciting roadmap ahead, filled with new features, improvements, and innovations. Our upcoming projects include the Composer dApp, an intuitive online platform that allows users to create and manage subjects directly within their browsers. This tool will make it even easier to build and deploy decentralized applications, opening up new possibilities for developers of all skill levels.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="thank-you">Thank You<a href="https://subjektify.dev/blog/welcome#thank-you" class="hash-link" aria-label="Direct link to Thank You" title="Direct link to Thank You">​</a></h2>
+<p>Thank you for joining us on this journey to redefine decentralized application development. We are excited to see what you will create with Subjektify and look forward to building the future of dApps together.</p>
+<p>Stay tuned for more updates, tutorials, and insights right here on our blog. Welcome to the Subjektify community!</p>]]></content:encoded>
             <category>web3</category>
             <category>dapp</category>
             <category>subject</category>
