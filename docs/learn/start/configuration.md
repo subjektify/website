@@ -2,57 +2,58 @@
 sidebar_position: 3
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Configuration
 
 After successfully installing Subjektify, configuring it to meet the specific needs of your decentralized application (dApp) is the next critical step. This guide will walk you through the basic configuration options available in Subjektify and how to customize them for your project.
 
 :::info
 
-Check the [`subjekt.json` API reference](/docs/learn/subjektify/config) for a complete list of options
+Check the [`subjektify.config.js` API reference](/docs/learn/subjektify/config) for a complete list of options
 
 :::
 
-## Getting Started with `subjektify.json`
+## Getting Started with `subjektify.config.(js|ts)`
 
-When you initialize a new project with Subjektify, a `subjektify.json` file is automatically created in your project's root directory. This file is the heart of your project's configuration, controlling how your application behaves and interacts with various components and the blockchain network.
+When you initialize a new project with Subjektify, a `subjektify.config.js` (or `subjektify.config.ts` for TypeScript) file is automatically created in your project's root directory. This file is the heart of your project's configuration, controlling how your application behaves and interacts with various components and the blockchain network.
 
 ### Basic Configuration
 
 First, let’s set up the basic configuration which involves defining the project’s namespace, version, and the license.
 
-#### 1. Define Your Namespace
+<Tabs>
+<TabItem value="js" label="JavaScript">
 
-The namespace uniquely identifies your project across the Subjektify platform.
-
-- **Open** your `subjektify.json` file.
-- **Locate** the `namespace` key.
-- **Modify** the value to something unique that describes your project.
-
-```json
-"namespace": "com.example.myapp"
+```js
+module.exports = {
+    namespace: "my-dapp",
+    version: "1.0.0",
+    license: "MIT",
+    // Additional configurations...
+}
 ```
 
-#### 2. Set the Version
+</TabItem>
+<TabItem value="ts" label="Typescript">
 
-Versioning is crucial for maintaining your project over time.
-
-- **Find** the `version` key.
-- **Update** the value following [Semantic Versioning](https://semver.org/).
-
-```json
-"version": "1.0.0"
+```ts
+export default const config = {
+    namespace: "my-dapp",
+    version: "1.0.0",
+    license: "MIT",
+    // Additional configurations...
+}
 ```
 
-#### 3. Specify the License
+</TabItem>
+</Tabs>
 
-Choose a license that best fits how others can use your project.
+#### 1. Define Your Namespace to something unique that describes your project.
+#### 2. Set the Version following [Semantic Versioning](https://semver.org/).
+#### 3. Specify the License using an [SPDX license identifier](https://spdx.org/licenses/).
 
-- **Look for** the `license` key.
-- **Enter** an [SPDX license identifier](https://spdx.org/licenses/).
-
-```json
-"license": "MIT"
-```
 
 ### Advanced Configuration
 
