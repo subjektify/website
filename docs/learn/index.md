@@ -50,17 +50,6 @@ Subjektify enhances modularity and extensibility by allowing you to utilize [Blu
 
 4. Open [`http://localhost:3000`](http://localhost:3000) in your browser and start exploring the Subjektify toolkit.
 
-## Why Subjektify?
-
-Subjektify combines ease of use with powerful tools to provide an exceptional development experience:
-
-- 🚀 **Simplified DApp Development**: Start building your decentralized applications with minimal setup and configuration.
-- 🛠️ **Robust Toolkit**: Access a comprehensive suite of tools designed specifically for Web3 development.
-- 📚 **Rich Learning Resources**: From basic tutorials to advanced guides, find all the resources you need to master dApp development.
-- 🌐 **Community Support**: Join an active community of developers and contributors who are shaping the future of decentralization.
-
-We believe that understanding the inner mechanics of a library enhances a developer's ability to use it effectively. Therefore, we are committed to clearly describing the architecture and components of Subjektify. Our goal is for users to gain a profound understanding of the tool, which will enhance their proficiency in its application.
-
 ## Stay Informed {#stay-informed}
 
 - [Blog](/blog): Latest updates, features, and community stories.
