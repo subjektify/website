@@ -8,7 +8,7 @@ This section contains a list of all the possible errors you may encounter when u
 
 ## General Errors
 
-### SE001: You are not in a Subjektify namespace
+### SGE001: You are not in a Subjektify namespace
 
 #### Problem
 
@@ -18,7 +18,7 @@ You are trying to run `subjektify` outside of a Subjektify namespace.
 
 You can learn how to use Subjektify by reading the [Getting Started guide](/docs/learn/start)
 
-### SE002: Subjektify's context is already created
+### SGE002: Subjektify's context is already created
 
 #### Problem
 
