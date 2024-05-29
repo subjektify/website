@@ -11,7 +11,7 @@ After successfully installing Subjektify, configuring it to meet the specific ne
 
 :::info
 
-Check the [`subjektify.config.js` API reference](/docs/learn/subjektify/config) for a complete list of options
+Check the [`subjektify.config.js` API reference](/docs/reference/subjektify/config) for a complete list of options
 
 :::
 
