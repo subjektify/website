@@ -37,3 +37,13 @@ There was a code path that attempted to initialize subjektify twice. This is a b
 #### Solution
 
 Please [report it](https://github.com/subjektify/subjektify/issues/new) to help us improve Subjektify
+
+### SGE004: Subjektify's environment is already created
+
+#### Problem
+
+There was a code path that attempted to initialize subjektify's runtime environment twice. This is a bug.
+
+#### Solution
+
+Please [report it](https://github.com/subjektify/subjektify/issues/new) to help us improve Subjektify
