@@ -8,7 +8,7 @@ const darkCodeTheme = themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Subjektify',
-  tagline: 'Building the Future of Decentralized Applications',
+  tagline: 'Decentralized applications development environment for professionals',
   favicon: 'img/favicon.ico',
   url: 'https://subjektify.dev',
   baseUrl: '/',
