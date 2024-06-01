@@ -86,11 +86,6 @@ const config = {
             ]
           },
           {
-            href: 'https://composer.subjektify.dev/',
-            position: 'right',
-            label: '🚀 Compose'
-          },
-          {
             href: 'https://github.com/subjektify',
             position: 'right',
             className: "header-github-link",
