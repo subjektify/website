@@ -10,6 +10,8 @@ The Subjekt model describes the Subjekt semantic model and the files used to cre
 
 The Subjekt model can be represented in various forms, including as a semantic model, through the Interface Definition Language (IDL), and as an Abstract Syntax Tree (AST) in JSON format.
 
+![Subjekt Overview](./SubjektOverview.svg)
+
 #### Semantic model
 
 The in-memory model used by tools. The semantic model may be serialized into one or more model file representations.
