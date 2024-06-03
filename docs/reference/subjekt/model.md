@@ -24,8 +24,8 @@ A file on the file system, in a particular representation. The model files that 
 
 A particular model file format such as the Subjekt IDL or JSON AST. Representations are loaded into the semantic model by mapping the representation to concepts in the semantic model.
 
-- Subjekt IDL: a human-readable format that aims to streamline authoring, reading, and sharing models.
-- JSON AST: a machine-readable JSON-based format.
+- [**Subjekt IDL**](./idl): a human-readable format that aims to streamline authoring, reading, and sharing models.
+- [**JSON AST**](./ast): a machine-readable JSON-based format.
 
 ## The Semantic Model
 

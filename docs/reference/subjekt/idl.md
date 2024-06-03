@@ -5,9 +5,9 @@ sidebar_position: 6
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Subjekt Grammar
+# Subjekt IDL
 
-Subjekt models are defined using either the Subjekt interface definition language (IDL) or the JSON abstract syntax tree (AST). This document defines the syntax and [**ABNF grammar**](https://tools.ietf.org/html/rfc5234.html) for defining models using the Subjekt IDL.
+Subjekt models are defined using either the Subjekt interface definition language (IDL) or the [JSON abstract syntax tree](./ast) (AST). This document defines the syntax and [**ABNF**](https://tools.ietf.org/html/rfc5234.html) grammar for defining models using the Subjekt IDL.
 
 ## IDL Overview
 
@@ -23,14 +23,14 @@ The following example defines a basic model file:
 <TabItem value="subjekt" label="Subjekt">
 
 ```subjekt
-// (1) Metadata block
+// 1. Metadata block
 metadata foo = "bar"
 
-// (2) Use block
+// 2. Use block
 
 use some.other.namespace#OtherString
 
-// (3) Shape block
+// 3. Shape block
 
 structure MyStructure {
     @required
@@ -68,38 +68,28 @@ structure MyStructure {
 ## Language Components
 
 ### Comments
-A [comment](#comments-1) can appear at any place between tokens where whitespace [WS](#whitepace) can appear. Comments in Subjects are defined using two forward slashes followed by any character. A newline terminates a comment.
+A [comment](#comments-1) can appear at any place between tokens where whitespace [WS](#whitepace) can appear. Comments in Subjekt are defined using two forward slashes followed by any character. A newline terminates a comment.
 
 ```subjekt
 // This is a comment
 string MyString // This is also a comment
 
 /// This is documentation about a trait shape.
-///   More docs here.
+/// More docs here.
 @trait
 structure myTrait {}
 ```
 
 ### Metadata Block
 
-The metadata block is utilized to apply untyped metadata across the entire Subject model. In a `MetadataStatement`, a metadata key is defined, followed by `=`, and then the node value assigned to that key.
+The metadata block is utilized to apply untyped metadata across the entire Subjekt model. In a `MetadataStatement`, a metadata key is defined, followed by `=`, and then the node value assigned to that key.
 
-Here's an example of defining metadata in a Subject model:
+Here's an example of defining metadata in a Subjekt model:
 
 ```subjekt
 metadata greeting = "hello"
-metadata "stringList" = ["a", "b", "c"]
+metadata stringList = ["a", "b", "c"]
 ```
-
-Metadata isn't confined within a namespace. Unquoted object property values are considered syntactic shape IDs and are inherently associated with the core Subjects namespace.
-
-For instance, in the Subjects IDL model:
-
-```subjekt
-metadata exampleSyntacticShapeId = required
-```
-
-The `exampleSyntacticShapeId` resolves to the core Subjekt namespace, akin to `subjekt.core#required`.
 
 ### Shape Block
 
@@ -107,15 +97,15 @@ The `exampleSyntacticShapeId` resolves to the core Subjekt namespace, akin to `s
 
 - Subjekt models MUST be encoded using UTF-8 and SHOULD use Unix style line endings `\n`.
 - The Subjekt ABNF is whitespace sensitive.
-- Except for within strings, commas and semicolons in the Subjekt IDL are considered whitespaces. Commas can be used anywhere where they make the model easier to read (for example, in complex traits defined on a single line). While semicolons are usually added by developers at the end of each statement
+- Except for within strings, commas and semicolons in the Subjekt IDL are considered whitespaces. Commas and semicolons can be used anywhere where they make the model easier to read (for example, in complex traits defined on a single line). While semicolons are usually added by developers at the end of each statement
 
-## Subjects IDL ABNF
+## Subjekt IDL ABNF
 
 The Subjects IDL is defined by the following ABNF which uses case-sensitive string support defined in [RFC 7405](https://tools.ietf.org/html/rfc7405.html).
 
 ```abnf
-IDL = 
-    [ WS ] MetadataBlock ShapeBlock
+idl = 
+    [ WS ] MetadataBlock UseBlock ShapeBlock
 ```
 
 ### Whitepace
@@ -140,7 +130,7 @@ BR =
     [SP] 1*(Comment / NL) [WS]; line break followed by whitespace
 ```
 
-#### Comments
+### Comments
 
 ```abnf
 Comment =
@@ -273,7 +263,7 @@ InlineAggregateShape =
      [WS] ShapeMembers
 ```
 
-#### Shape ID
+### Shape ID
 
 ```abnf
 ShapeId =
@@ -301,7 +291,7 @@ ShapeIdMember =
     "$" Identifier
 ```
 
-#### Node Values
+### Node Values
 
 ```abnf
 NodeValue =
@@ -394,7 +384,7 @@ ThreeDquotes =
     DQUOTE DQUOTE DQUOTE
 ```
 
-#### Traits
+### Traits
 
 ```abnf
 TraitStatements =
