@@ -4,25 +4,11 @@ sidebar_position: 1
 
 # Learn Subjektify
 
-Welcome to the Subjektify learning center! Whether you're a newcomer eager to explore the world of Web3 and decentralized applications or an experienced developer looking to deepen your understanding of Subject-Oriented Programming, Subjektify will help you build **powerful, scalable, and secure dApps** in no time.
+Welcome to the Subjektify learning guide! This is your starting point for understanding how to utilize Subjektify to build robust and scalable decentralized applications (dApps). Whether you are a seasoned developer or new to the world of blockchain, this guide will provide you with the essential knowledge and tools to get started quickly.
 
 ## What is Subjektify?
 
-Subjektify is an innovative toolkit designed to streamline and revolutionize the development of decentralized applications (dApps). By leveraging a subject-oriented programming approach, Subjektify simplifies the creation, management, and scaling of dApps, making it easier for developers to build robust, scalable, and secure decentralized solutions.
-
-### Core Components
-
-#### Subjektify CLI
-
-The Subjektify Command-Line Interface (CLI) is a powerful tool that aids developers in scaffolding, developing, and managing their dApp projects. It provides a range of commands to initialize new projects, generate code from Subjekt definitions, and deploy applications.
-
-#### Subjekt IDL
-
-Subjektify features a specialized interface definition language (IDL) called Subjekt. This language is used to define and manage the data structures, states, and behaviors that make up a dApp's architecture. Subjekt IDL ensures that the components of a dApp are well-structured and easy to manage.
-
-#### Plugins and Blueprints
-
-To enhance modularity and extensibility, Subjektify includes a variety of plugins and blueprints. Plugins add specific functionalities to your project, while blueprints provide predefined architectures and templates to speed up development and ensure best practices are followed.
+Subjektify is a powerful toolkit designed to simplify the development of decentralized applications. It utilizes a subject-oriented programming approach, making it easier to define and manage the data structures, states, and behaviors of your dApp.
 
 ## Fast Track ⏱️ {#fast-track}
 
@@ -32,7 +18,7 @@ Understand Subjektify in just a few minutes by following our fast track guide:
 2. Create up your first Subjektify project:
 
    ```bash
-   npx subjektify create my-dapp -b subjektify/react-hardhat-typescript
+   npx subjektify init
    ```
 
 :::tip
@@ -41,14 +27,50 @@ Subjektify enhances modularity and extensibility by allowing you to utilize [Blu
 
 :::
 
-3. Navigate into your project directory and start the development server:
+3. Navigate into your project directory and build your model:
 
    ```bash
-   cd my-dapp
-   npm start
+   npx subjektify build
    ```
 
-4. Open [`http://localhost:3000`](http://localhost:3000) in your browser and start exploring the Subjektify toolkit.
+4. Automatically generate the necessary code from your Subjekt definitions.
+   ```bash
+   npx subjektify codegen
+   ```
+
+## Why Use Subjektify?
+
+- **Streamlined Development**: Simplifies the complex process of dApp development with intuitive tools and frameworks.
+- **Modular Architecture**: Offers a flexible and modular architecture that can be tailored to your specific project needs.
+- **Comprehensive Tools**: Provides a range of tools for code generation, validation, and compilation, ensuring a seamless development workflow.
+
+## Core Components
+
+### Subjektify CLI
+
+The Subjektify Command-Line Interface (CLI) is an essential tool that helps developers scaffold, develop, and manage their dApp projects. It offers a variety of commands to initialize new projects, generate code from Subjekt definitions, and deploy applications efficiently.
+
+### Subjekt IDL
+
+Subjektify includes a specialized interface definition language (IDL) known as Subjekt. This language is designed to define and manage the data structures, states, and behaviors that constitute a dApp's architecture. Subjekt IDL ensures that dApp components are well-structured and easy to manage.
+
+### Plugins and Blueprints
+
+Enhance and customize Subjektify’s functionality with plugins and blueprints. These tools allow for rapid development and ensure adherence to best practices, making it easier to extend the capabilities of your dApp.
+
+### Subject Universe
+
+Subject Universe is a core component of Subjektify that provides a comprehensive framework for organizing and managing various subjects within your dApp. It allows you to define relationships and interactions between different subjects, ensuring a cohesive and well-structured application architecture.
+
+## Learning Path
+
+### Tutorials
+
+Step-by-step tutorials to guide you through specific use cases and features of Subjektify.
+
+### API Reference
+
+Detailed API documentation to help you understand and utilize Subjektify’s capabilities to their fullest.
 
 ## Stay Informed {#stay-informed}
 
