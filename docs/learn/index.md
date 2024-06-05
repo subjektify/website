@@ -8,14 +8,14 @@ Welcome to the Subjektify learning guide! This is your starting point for unders
 
 ## What is Subjektify?
 
-Subjektify is a powerful toolkit designed to simplify the development of decentralized applications. It utilizes a subject-oriented programming approach, making it easier to define and manage the data structures, states, and behaviors of your dApp.
+Subjektify is a powerful toolkit designed to simplify the development of decentralized applications. It utilizes a subject-oriented programming approach, making it easier to define and manage the data structures, states, and behaviors across your applications.
 
 ## Fast Track ⏱️ {#fast-track}
 
 Understand Subjektify in just a few minutes by following our fast track guide:
 
 1. Install Node.js from [Node.js official website](https://nodejs.org/en/download/).
-2. Create up your first Subjektify project:
+2. Create your first Subjektify project:
 
    ```bash
    npx subjektify init
@@ -23,7 +23,7 @@ Understand Subjektify in just a few minutes by following our fast track guide:
 
 :::tip
 
-Subjektify enhances modularity and extensibility by allowing you to utilize [Blueprints](https://blueprints.subjektify.dev) to jumpstart your project efficiently.
+Subjektify promotes modularity and extensibility by enabling the use of [Blueprints](https://blueprints.subjektify.dev) to efficiently kickstart your project.
 
 :::
 
@@ -60,7 +60,7 @@ Enhance and customize Subjektify’s functionality with plugins and blueprints. 
 
 ### Subject Universe
 
-Subject Universe is a core component of Subjektify that provides a comprehensive framework for organizing and managing various subjects within your dApp. It allows you to define relationships and interactions between different subjects, ensuring a cohesive and well-structured application architecture.
+Subject Universe is a core component of Subjektify that provides a comprehensive framework for organizing and managing various subjects across your applications. It allows you to define relationships and interactions between different subjects, ensuring a cohesive and well-structured application architecture.
 
 ## Learning Path
 

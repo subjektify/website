@@ -28,7 +28,7 @@ First, let’s set up the basic configuration which involves defining the projec
 
 ```js
 module.exports = {
-    namespace: "my-dapp",
+    namespace: "my.dapp",
     version: "1.0.0",
     license: "MIT",
     // Additional configurations...
@@ -39,12 +39,14 @@ module.exports = {
 <TabItem value="ts" label="Typescript">
 
 ```ts
-export default const config = {
-    namespace: "my-dapp",
+const config = {
+    namespace: "my.dapp",
     version: "1.0.0",
     license: "MIT",
     // Additional configurations...
 }
+
+export default config;
 ```
 
 </TabItem>
