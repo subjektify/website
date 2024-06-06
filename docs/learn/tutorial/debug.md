@@ -2,4 +2,4 @@
 sidebar_position: 5
 ---
 
-# Debugging Subjects
+# 4. Debugging Subjects

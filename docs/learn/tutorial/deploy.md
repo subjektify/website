@@ -2,4 +2,4 @@
 sidebar_position: 6
 ---
 
-# Deploying Subjects
+# 5. Deploying Subjects

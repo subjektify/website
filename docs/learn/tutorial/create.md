@@ -2,4 +2,4 @@
 sidebar_position: 2
 ---
 
-# Creating a Namespace
+# 1. Creating a Namespace

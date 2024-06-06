@@ -2,4 +2,4 @@
 sidebar_position: 7
 ---
 
-# Final notes
+# 6. Final notes
