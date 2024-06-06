@@ -68,7 +68,6 @@ The task you are trying to run does not exist.
 
 #### Solution
 
-Ensure that the task name is correct and that it has been defined in your `subjektify.config.(js|ts)` file. Refer to the [task documentation](/docs/learn/tasks) for more details.
 
 ### SGE102: A task action was run without being set
 
@@ -78,7 +77,6 @@ A task action was attempted to be run, but no action has been set for this task.
 
 #### Solution
 
-Check your `subjektify.config.(js|ts)` file to ensure that the task has been properly defined and an action has been set for it. Refer to the [task documentation](/docs/learn/tasks) for more details.
 
 ## Config Errors
 
@@ -90,7 +88,6 @@ An error occurred while attempting to load the `subjektify.config.(js|ts)` file.
 
 #### Solution
 
-Ensure that the configuration file is present and correctly formatted. Refer to the [configuration documentation](/docs/learn/config) for more details.
 
 ### SGE202: No config file found
 
@@ -100,4 +97,3 @@ No `subjektify.config.(js|ts)` file was found in the current directory.
 
 #### Solution
 
-Ensure that you are in the correct directory and that the `subjektify.config.(js|ts)` file exists. Refer to the [configuration documentation](/docs/learn/config) for more details.
