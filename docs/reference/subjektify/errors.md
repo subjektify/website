@@ -60,7 +60,7 @@ Please [report it](https://github.com/subjektify/subjektify/issues/new) to help 
 
 ## Task Errors
 
-### SGE101: Task not found
+### STE001: Task not found
 
 #### Problem
 
@@ -69,7 +69,7 @@ The task you are trying to run does not exist.
 #### Solution
 
 
-### SGE102: A task action was run without being set
+### STE002: A task action was run without being set
 
 #### Problem
 
@@ -80,7 +80,7 @@ A task action was attempted to be run, but no action has been set for this task.
 
 ## Config Errors
 
-### SGE201: Error loading config file
+### SCE001: Error loading config file
 
 #### Problem
 
@@ -89,7 +89,7 @@ An error occurred while attempting to load the `subjektify.config.(js|ts)` file.
 #### Solution
 
 
-### SGE202: No config file found
+### SCE002: No config file found
 
 #### Problem
 
