@@ -18,12 +18,12 @@ function HomepageHeader() {
           <Link
             className="button button--success button--lg margin-right--sm"
             href='https://composer.subjektify.dev/'>
-            Start building 🚀
+            Try a Demo
           </Link>
           <Link
             className="button button--secondary button--lg"
             to="/docs/learn#fast-track">
-            Tutorial - 5 min ⏱️
+            Get Started
           </Link>
         </div>
       </div>
