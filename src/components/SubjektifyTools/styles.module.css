@@ -1,0 +1,12 @@
+.pills {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.pill {
+    width: 80px;
+    height: 80px;
+}

@@ -76,7 +76,7 @@ const config = {
         },
         items: [
           { to: '/docs/learn', label: 'Learn', position: 'left' },
-          { to: '/docs/tools', label: 'Tools', position: 'left' },
+          { to: '/tools', label: 'Tools', position: 'left' },
           { to: '/docs/reference', label: 'Reference', position: 'left' },
           {
             type: 'dropdown', label: 'Resources', position: 'left', items: [
