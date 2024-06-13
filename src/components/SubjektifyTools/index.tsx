@@ -55,7 +55,7 @@ function ToolDetails({ active }: { active: string }) {
     switch (active) {
         case 'subjektify':
             return (
-                <div className="hero" style={{ height: '25rem' }}>
+                <div className={clsx('hero', styles.subjektify)} style={{ height: '25rem' }}>
                     <div className="container">
                         <h1 className="hero__title">Subjektify</h1>
                         <p className="hero__subtitle">An all-in-one toolkit to streamline your development</p>
@@ -67,7 +67,7 @@ function ToolDetails({ active }: { active: string }) {
             );
         case 'subjekt':
             return (
-                <div className="hero" style={{ height: '25rem' }}>
+                <div className={clsx('hero', styles.subjekt)} style={{ height: '25rem' }}>
                     <div className="container">
                         <h1 className="hero__title">Subjekt</h1>
                         <p className="hero__subtitle">A powerful interface definition language for defining your dApps</p>
@@ -79,7 +79,7 @@ function ToolDetails({ active }: { active: string }) {
             );
         case 'plugin':
             return (
-                <div className="hero" style={{ height: '25rem' }}>
+                <div className={clsx('hero', styles.plugin)} style={{ height: '25rem' }}>
                     <div className="container">
                         <h1 className="hero__title">Plugins</h1>
                         <p className="hero__subtitle">Extend and customize Subjektify with plugins</p>
@@ -91,7 +91,7 @@ function ToolDetails({ active }: { active: string }) {
             );
         case 'blueprint':
             return (
-                <div className="hero" style={{ height: '25rem' }}>
+                <div className={clsx('hero', styles.blueprint)} style={{ height: '25rem' }}>
                     <div className="container">
                         <h1 className="hero__title">Blueprints</h1>
                         <p className="hero__subtitle">Reusable templates to kickstart your projects</p>
@@ -103,7 +103,7 @@ function ToolDetails({ active }: { active: string }) {
             );
         case 'universe':
             return (
-                <div className="hero" style={{ height: '25rem' }}>
+                <div className={clsx('hero', styles.universe)} style={{ height: '25rem' }}>
                     <div className="container">
                         <h1 className="hero__title">Subject Universe</h1>
                         <p className="hero__subtitle">Explore and publish subjects in the Subjekt Universe</p>
