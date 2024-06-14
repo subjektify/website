@@ -1,5 +1,12 @@
 import React, { useState } from 'react';
 import clsx from 'clsx';
+import {
+    SubjektToolDetails,
+    SubjektifyToolDetails,
+    PluginToolDetails,
+    BlueprintToolDetails,
+    UniverseToolDetails
+} from './tools';
 
 import SubjektifyImage from '@site/static/img/tools/subjektify.svg';
 import SubjektImage from '@site/static/img/tools/subjekt.svg';
@@ -9,44 +16,44 @@ import UniverseImage from '@site/static/img/tools/universe.svg';
 
 import styles from './styles.module.css';
 
+interface PillProps {
+    id: string;
+    title: string;
+    active: string;
+    setActive: (active: string) => void;
+    children?: React.ReactNode;
+}
+
+function Pill({ id, title, active, setActive, children }: PillProps) {
+    return (
+        <li
+            className={clsx('pills__item', { 'pills__item--active': active === id })}
+            onClick={() => setActive(id)}
+        >
+            {children}
+            <div>{title}</div>
+        </li>
+    );
+}
+
 function Pills({ active, setActive }: { active: string; setActive: (active: string) => void }) {
     return (
         <ul className="pills pills-block">
-            <li
-                className={clsx('pills__item', { 'pills__item--active': active === 'subjektify' })}
-                onClick={() => setActive('subjektify')}
-            >
+            <Pill id="subjektify" title="Subjektify" active={active} setActive={setActive}>
                 <SubjektifyImage className={styles.pill} />
-                <div>Subjektify</div>
-            </li>
-            <li
-                className={clsx('pills__item', { 'pills__item--active': active === 'subjekt' })}
-                onClick={() => setActive('subjekt')}
-            >
+            </Pill>
+            <Pill id="subjekt" title="Subjekt" active={active} setActive={setActive}>
                 <SubjektImage className={styles.pill} />
-                <div>Subjekt</div>
-            </li>
-            <li
-                className={clsx('pills__item', { 'pills__item--active': active === 'plugin' })}
-                onClick={() => setActive('plugin')}
-            >
+            </Pill>
+            <Pill id="plugin" title="Plugins" active={active} setActive={setActive}>
                 <PluginImage className={styles.pill} />
-                <div>Plugins</div>
-            </li>
-            <li
-                className={clsx('pills__item', { 'pills__item--active': active === 'blueprint' })}
-                onClick={() => setActive('blueprint')}
-            >
+            </Pill>
+            <Pill id="blueprint" title="Blueprints" active={active} setActive={setActive}>
                 <BlueprintImage className={styles.pill} />
-                <div>Blueprints</div>
-            </li>
-            <li
-                className={clsx('pills__item', { 'pills__item--active': active === 'universe' })}
-                onClick={() => setActive('universe')}
-            >
+            </Pill>
+            <Pill id="universe" title="Universe" active={active} setActive={setActive}>
                 <UniverseImage className={styles.pill} />
-                <div>Universe</div>
-            </li>
+            </Pill>
         </ul>
     );
 }
@@ -54,65 +61,15 @@ function Pills({ active, setActive }: { active: string; setActive: (active: stri
 function ToolDetails({ active }: { active: string }) {
     switch (active) {
         case 'subjektify':
-            return (
-                <div className={clsx('hero', styles.subjektify)} style={{ height: '25rem' }}>
-                    <div className="container">
-                        <h1 className="hero__title">Subjektify</h1>
-                        <p className="hero__subtitle">Subjektify is your all-in-one toolkit for building decentralized applications, providing streamlined workflows and robust tools for efficient dApp development.</p>
-                        <div>
-                            <button className="button button--secondary button--lg">Learn more</button>
-                        </div>
-                    </div>
-                </div>
-            );
+            return <SubjektifyToolDetails />;
         case 'subjekt':
-            return (
-                <div className={clsx('hero', styles.subjekt)} style={{ height: '25rem' }}>
-                    <div className="container">
-                        <h1 className="hero__title">Subjekt</h1>
-                        <p className="hero__subtitle">Subjekt is a powerful Interface Definition Language (IDL) designed to define and manage the components of your dApp architecture with clarity and modularity.</p>
-                        <div>
-                            <button className="button button--secondary button--lg">Learn more</button>
-                        </div>
-                    </div>
-                </div>
-            );
+            return <SubjektToolDetails />;
         case 'plugin':
-            return (
-                <div className={clsx('hero', styles.plugin)} style={{ height: '25rem' }}>
-                    <div className="container">
-                        <h1 className="hero__title">Plugins</h1>
-                        <p className="hero__subtitle">Enhance and extend Subjektify's capabilities with plugins, adding specialized functionalities and integrations to suit your project's needs.</p>
-                        <div>
-                            <button className="button button--secondary button--lg">Learn more</button>
-                        </div>
-                    </div>
-                </div>
-            );
+            return <PluginToolDetails />;
         case 'blueprint':
-            return (
-                <div className={clsx('hero', styles.blueprint)} style={{ height: '25rem' }}>
-                    <div className="container">
-                        <h1 className="hero__title">Blueprints</h1>
-                        <p className="hero__subtitle">Blueprints are ready-to-use templates that help you kickstart your projects quickly, providing predefined structures and configurations for common use cases.</p>
-                        <div>
-                            <button className="button button--secondary button--lg">Learn more</button>
-                        </div>
-                    </div>
-                </div>
-            );
+            return <BlueprintToolDetails />;
         case 'universe':
-            return (
-                <div className={clsx('hero', styles.universe)} style={{ height: '25rem' }}>
-                    <div className="container">
-                        <h1 className="hero__title">Subject Universe</h1>
-                        <p className="hero__subtitle">The Subject Universe is a platform for using and sharing subjects, enabling efficient subject-oriented programming in decentralized applications.</p>
-                        <div>
-                            <button className="button button--secondary button--lg">Learn more</button>
-                        </div>
-                    </div>
-                </div>
-            );
+            return <UniverseToolDetails />;
         default:
             return null;
     }
