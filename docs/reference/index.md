@@ -16,6 +16,6 @@ Please report technical errors and ambiguities in this specification to the [Sub
 
 The reference section is divided into several key areas, each targeting a specific aspect of Subjektify:
 
-- [Subjektify Reference](./subjektify/): Detailed documentation on the `subjektify` CLI, including command descriptions, usage examples, and configuration options.
-- [Subjekt Specification](./subjekt/): A complete guide to the Subjekt Interface Definition Language, essential for defining and managing subjects within your applications.
+- [Subjektify Reference](/docs/reference/subjektify/): Detailed documentation on the `subjektify` CLI, including command descriptions, usage examples, and configuration options.
+- [Subjekt Specification](/docs/reference/subjekt/): A complete guide to the Subjekt Interface Definition Language, essential for defining and managing subjects within your applications.
 
