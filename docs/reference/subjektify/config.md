@@ -9,7 +9,7 @@ import TabItem from '@theme/TabItem';
 
 :::info
 
-Refer to the [Subjektify guide](/docs/learn/subjektify/config) for examples.
+Refer to the [Subjektify guide](/docs/learn/start/configuration) for examples.
 
 :::
 
