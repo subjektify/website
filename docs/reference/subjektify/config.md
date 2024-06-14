@@ -21,7 +21,7 @@ Refer to the [Subjektify guide](/docs/learn/subjektify/config) for examples.
 <TabItem value="js" label="JavaScript">
 
 ```js title="subjektify.config.js"
-module.exports {
+module.exports = {
     namespace: "my.dapp",
     version: "1.0.0",
     license: "MIT"
@@ -114,41 +114,70 @@ export default {
 
 - Type: `BuildConfig`
 
-```ts
-interface BuildConfig = {
-    sources: string[],
-    outputDirectory: string,
-    projections: SubjektifyProjection[]
-}
-```
+The `build` section specifies how your Subjekt models should be processed and where the output should be stored. It includes options for specifying the source directories, output directory, and projections.
 
-```js
-export default {
+<Tabs>
+<TabItem value="js" label="JavaScript">
+
+```js title="subjektify.config.js"
+module.exports = {
     build: {
         sources: ["subjects"],
-        outputDirectory: "artifacts"
+        outputDirectory: "dist",
+        projections: {
+            MyAbstractProjection: {
+                abstract: true
+            },
+            MyProjection: {
+                transformations: [
+                    {
+                        type: "apply",
+                        args: {
+                            projections: ["MyAbstractProjection"]
+                        }
+                    }
+                ]
+            }
+        }
     }
 }
 ```
 
-### `codegen`
+</TabItem>
+<TabItem value="ts" label="TypeScript">
 
-```js
-export default {
-    codegen: [
-        {
-            type: "client",
-            language: "typescript"
-        },
-        {
-            type: "contract"
-            language: "solidity"
+```ts title="subjektify.config.ts"
+import { SubjektifyConfig, TransformationType } from 'subjektify';
+
+const config: SubjektifyConfig = {
+    build: {
+        sources: ["subjects"],
+        outputDirectory: "dist",
+        projections: {
+            MyAbstractProjection: {
+                abstract: true
+            },
+            MyProjection: {
+                transformations: [
+                    {
+                        type: TransformationType.Apply,
+                        args: {
+                            projections: ["MyAbstractProjection"]
+                        }
+                    }
+                ]
+            }
         }
-    ]
-}
+    }
+};
+
+export default config;
 ```
 
-### `sources`
+</TabItem>
+</Tabs>
+
+#### `sources`
 
 - Type: `string[]`
 
@@ -156,11 +185,13 @@ An array of relative file paths or directories that contain Subjekt models. Thes
 
 ```js
 export default {
-    sources: ["subjects"]
+    build: {
+        sources: ["subjects"]
+    }
 }
 ```
 
-### `outputDirectory`
+#### `outputDirectory`
 
 - Type: `string`
 
@@ -168,30 +199,119 @@ The directory where project artifacts will be written. This can include generate
 
 ```js
 export default {
-    outputDirectory: "dist"
+    build: {
+        outputDirectory: "dist"
+    }
 }
 ```
 
-### `projections`
+#### `projections`
 
-- Type: `Map<string, string>`
+- Type: `Projection[]`
 
-A projection of a model is a filtered and modified version of a Subjekt model that is intended for specific audiences. Projections can be used to transform or generate different views of the model, useful for cases where applications may benefit from sharing different models based on a single code base.
+Projections can be used to transform or generate different views of the model. These are useful for cases where applications may benefit from sharing different models based on a single code base.
 
 ```js
 export default {
-    projections: {
-        MyAbstractProjection: {
-            abstract: true
-        },
-        MyProjection: {
-            transformations: {
-                name: "apply",
-                args: {
-                    projections: ["MyAbstractProjection"]
-                }
+    build: {
+        projections: {
+            MyAbstractProjection: {
+                abstract: true
+            },
+            MyProjection: {
+                transformations: [
+                    {
+                        type: "apply",
+                        args: {
+                            projections: ["MyAbstractProjection"]
+                        }
+                    }
+                ]
             }
         }
     }
+}
+```
+
+### `codegen`
+
+- Type: `CodeGenConfig[]`
+
+The `codegen` section specifies configurations for code generation. This includes details on the target, language, and output directory for the generated code.
+
+<Tabs>
+<TabItem value="js" label="JavaScript">
+
+```js title="subjektify.config.js"
+module.exports = {
+    codegen: [
+        {
+            target: "client",
+            language: "typescript",
+            outputDirectory: "generated/client"
+        },
+        {
+            target: "contract",
+            language: "solidity",
+            outputDirectory: "generated/contracts"
+        }
+    ]
+}
+```
+
+</TabItem>
+<TabItem value="ts" label="TypeScript">
+
+```ts title="subjektify.config.ts"
+import { SubjektifyConfig, CodeGenTarget, CodeGenLanguage } from 'subjektify';
+
+const config: SubjektifyConfig = {
+    codegen: [
+        {
+            target: CodeGenTarget.Client,
+            language: CodeGenLanguage.TypeScript,
+            outputDirectory: "generated/client"
+        },
+        {
+            target: CodeGenTarget.Contract,
+            language: CodeGenLanguage.Solidity,
+            outputDirectory: "generated/contracts"
+        }
+    ]
+};
+
+export default config;
+```
+
+</TabItem>
+</Tabs>
+
+#### `target`
+
+- Type: `CodeGenTarget`
+
+Specifies the target for code generation. Options include `client`, `contract`, and `server`.
+
+#### `language`
+
+- Type: `CodeGenLanguage`
+
+Specifies the programming language for the generated code. Options include `typescript`, `javascript`, and `solidity`.
+
+#### `outputDirectory`
+
+- Type: `string`
+
+The directory where the generated code will be written.
+
+```js
+export default {
+    codegen: [
+        {
+            target: "client",
+            language: "typescript",
+            outputDirectory: "generated/client"
+        }
+    ]
 }
 ```
