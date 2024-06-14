@@ -1,6 +1,6 @@
 # Subjektify's Website
 
-Building the Future of Decentralized Applications
+Decentralized applications development environment for professionals.
  
 [Check it out](https://subjektify.dev)
 

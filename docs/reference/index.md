@@ -8,7 +8,7 @@ Welcome to the Subjektify Reference Documentation! This section provides detaile
 
 ## Conventions used in this section
 
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119.html). This specification makes use of the Augmented Backus-Naur Form (ABNF) [RFC 5234](https://tools.ietf.org/html/rfc5234.html) notation, including the core rules defined [here](./idl).
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119.html).
 
 Please report technical errors and ambiguities in this specification to the [Subjektify GitHub repository](https://github.com/subjektify/subjektify). This specification is open source; contributions are welcome.
 

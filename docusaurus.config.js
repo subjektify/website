@@ -66,7 +66,7 @@ const config = {
       image: 'img/social-card.jpg',
       announcementBar: {
         id: 'in_development',
-        content: '🚧 Important Notice: Subjektify is currently under active development. We advise against using it for production purposes at this time.',
+        content: '🚧 Important Notice: Subjektify is currently under active development. We advise against using it for production purposes at this time. 🚧',
       },
       navbar: {
         title: 'Subjektify',
