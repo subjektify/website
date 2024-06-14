@@ -12,7 +12,7 @@ Subjektify is a powerful toolkit designed to simplify the development of decentr
 
 ## Fast Track ⏱️ {#fast-track}
 
-Understand Subjektify in just a few minutes by following our fast track guide:
+Get started with Subjektify in just a few minutes by following our fast track guide:
 
 1. Install Node.js from [Node.js official website](https://nodejs.org/en/download/).
 2. Create your first Subjektify project:
@@ -66,11 +66,19 @@ Subject Universe is a core component of Subjektify that provides a comprehensive
 
 ### Tutorials
 
-Step-by-step tutorials to guide you through specific use cases and features of Subjektify.
+Step-by-step tutorial to guide you through specific use cases and features of Subjektify.
 
-### API Reference
+### Using Subjektify
 
-Detailed API documentation to help you understand and utilize Subjektify’s capabilities to their fullest.
+Comprehensive guides on how to effectively use the Subjektify toolkit for your dApp development, including setup, configuration, and best practices.
+
+### Understanding Subjekt
+
+In-depth explanations of the Subjekt Interface Definition Language (IDL), its syntax, and how to define and manage subjects within your applications.
+
+### Reference
+
+Detailed API documentation to help you understand and utilize Subjektify’s capabilities to their fullest, including configuration options, CLI commands, and integration guides.
 
 ## Stay Informed {#stay-informed}
 
