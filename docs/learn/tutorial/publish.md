@@ -2,4 +2,4 @@
 sidebar_position: 5
 ---
 
-# 4. Debugging Subjects
+# 5. Publishing Subjects
