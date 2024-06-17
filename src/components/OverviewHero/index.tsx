@@ -41,7 +41,7 @@ export default function OverviewHero(): JSX.Element {
                 Build Decentralized Applications with Subjects
                 </h1>
                 <p className={clsx('text--center', styles.subtitle)}>
-                Subjektify lets you build decentralized applications (dApps) out of individual pieces called subjects. Create your own subjects like <code>SocialProfile</code>, <code>Token</code>, and <code>VotingSystem</code>. Then combine them into entire systems, services, and applications.
+                Subjektify lets you build decentralized applications (dApps) out of individual pieces called subjects. Create your own subjects like <code>SocialProfile</code>, <code>Token</code>, and <code>VotingSystem</code>. Each encapsulating its own state and behavior definitions.
                 </p>
                 <CodeSnippet />
                 <p className={clsx('text--center', styles.subtitle)}>
