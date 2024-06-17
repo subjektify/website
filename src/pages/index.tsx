@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import OverviewHero from '@site/src/components/OverviewHero';
 
 import styles from './index.module.css';
 
@@ -38,6 +39,7 @@ export default function Home(): JSX.Element {
     >
       <HomepageHeader />
       <main>
+        <OverviewHero />
         <HomepageFeatures />
       </main>
     </Layout>

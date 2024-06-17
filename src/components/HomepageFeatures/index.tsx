@@ -37,7 +37,7 @@ export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">
-        <h1 className='text--center padding-vert--md'>What is Subjektify?</h1>
+        <h1 className='text--center padding-vert--md'>Why Subjektify?</h1>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
