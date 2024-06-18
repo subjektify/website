@@ -75,8 +75,8 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          { to: '/docs/learn', label: 'Learn', position: 'left' },
           { to: '/tools', label: 'Tools', position: 'left' },
+          { to: '/docs/learn', label: 'Learn', position: 'left' },
           { to: '/docs/reference', label: 'Reference', position: 'left' },
           {
             type: 'dropdown', label: 'Resources', position: 'left', items: [
@@ -100,12 +100,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Develop',
-                to: '/docs/develop',
+                label: 'Blog',
+                to: '/blog',
               },
               {
-                label: 'Handbook',
-                to: '/docs/handbook',
+                label: 'Learn',
+                to: '/docs/learn',
+              },
+              {
+                label: 'Reference',
+                to: '/docs/reference',
               },
             ],
           },
@@ -120,15 +124,15 @@ const config = {
                 label: 'Twitter',
                 href: 'https://twitter.com/subjekt',
               },
+              {
+                label: 'Youtube',
+                href: 'https://www.youtube.com/@SubjektifyLabs',
+              },
             ],
           },
           {
             title: 'Quick Links',
             items: [
-              {
-                label: 'Composer',
-                href: 'https://composer.subjektify.dev/',
-              },
               {
                 label: 'Blueprints',
                 href: 'https://blueprints.subjektify.dev/',
@@ -137,14 +141,18 @@ const config = {
                 label: 'Plugins',
                 href: 'https://plugins.subjektify.dev/',
               },
+              {
+                label: 'Subject Universe',
+                href: 'https://universe.subjektify.dev/',
+              },
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: 'Download',
-                to: '/download',
+                label: 'Release Notes',
+                to: '/docs/release-notes',
               },
               {
                 label: 'GitHub',
