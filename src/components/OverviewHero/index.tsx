@@ -12,19 +12,15 @@ function CodeSnippet(): JSX.Element {
                 showLineNumbers
                 className={styles.codeBlock}
             >
-                {`subject Token {
+                {`subject MyToken {
     state: {
-        balances: Balances
+        name: string
+        symbol: string
     }
     behaviors: [
-        Mint,
-        Transfer
+        mint,
+        transfer
     ]
-}
-
-map Balances {
-    key: address
-    value: uint
 }`}
             </CodeBlock>
         </div>
