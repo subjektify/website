@@ -1,34 +1,32 @@
 import React from 'react';
 import clsx from 'clsx';
+import CodeBlock from '@theme/CodeBlock';
 import styles from './styles.module.css';
 
 function CodeSnippet(): JSX.Element {
     return (
         <div className={styles.codeSnippet}>
-            <div className={styles.codeColumn}>
-                <pre className={styles.codeBlock}>
-                    <code>
-{`// SocialProfile.subjekt
-subject SocialProfile {
-    state {
-        name: string;
-        email: string;
+            <CodeBlock
+                language='subjekt'
+                title='Token.subjekt'
+                showLineNumbers
+                className={styles.codeBlock}
+            >
+                {`subject Token {
+    state: {
+        balances: Balances
     }
-    behavior {
-        UpdateName(newName: string): void;
-    }
+    behaviors: [
+        Mint,
+        Transfer
+    ]
+}
+
+map Balances {
+    key: address
+    value: uint
 }`}
-                    </code>
-                </pre>
-            </div>
-            <div className={styles.outputColumn}>
-                <div className={styles.outputBlock}>
-                    <h3>Social Profile</h3>
-                    <p><strong>Name:</strong> Alice</p>
-                    <p><strong>Email:</strong> alice@example.com</p>
-                    <button className={styles.updateButton}>Update Name</button>
-                </div>
-            </div>
+            </CodeBlock>
         </div>
     );
 }

@@ -18,12 +18,7 @@
 }
 
 .codeBlock {
-    background: #1e1e1e;
-    color: #dcdcdc;
-    padding: 1rem;
-    border-radius: 4px;
-    overflow-x: auto;
-    font-size: 0.9rem;
+    min-width: 450px;
 }
 
 .outputBlock {
