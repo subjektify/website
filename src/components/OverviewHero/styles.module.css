@@ -12,37 +12,6 @@
     margin-top: 2rem;
 }
 
-.codeColumn, .outputColumn {
-    flex: 1;
-    padding: 1rem;
-}
-
 .codeBlock {
     min-width: 450px;
-}
-
-.outputBlock {
-    background: #f5f5f5;
-    color: #1e1e1e;
-    padding: 2rem;
-    border-radius: 4px;
-    text-align: left;
-}
-
-.outputBlock h3 {
-    margin-top: 0;
-}
-
-.updateButton {
-    background-color: #2185d0;
-    color: white;
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1rem;
-}
-
-.updateButton:hover {
-    background-color: #1678c2;
 }

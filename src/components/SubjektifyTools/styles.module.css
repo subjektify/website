@@ -15,24 +15,61 @@
     height: 25rem;
 }
 
+:root {
+    --subjektify-light: #d9e6ff;
+    --subjekt-light: #b3e6f0;
+    --plugin-light: #cfe7e0;
+    --blueprint-light: #f9b0a8;
+    --universe-light: #a2b1d4;
+
+    --subjektify-dark: #335a99;
+    --subjekt-dark: #1d5e6b;
+    --plugin-dark: #4d6e66;
+    --blueprint-dark: #992b26;
+    --universe-dark: #3d4f77;
+}
+
 .subjektify {
-    background-color: #aaccff;
+    background-color: var(--subjektify-light);
 }
 
 .subjekt {
-    background-color: #25b6d2;
+    background-color: var(--subjekt-light);
 }
 
 .plugin {
-    background-color: #76c2af;
+    background-color: var(--plugin-light);
 }
 
 .blueprint {
-    background-color: #f1543f;
+    background-color: var(--blueprint-light);
 }
 
 .universe {
-    background-color: #667bbb;
+    background-color: var(--universe-light);
+}
+
+[data-theme='dark'] {
+    
+    .subjektify {
+        background-color: var(--subjektify-dark);
+    }
+
+    .subjekt {
+        background-color: var(--subjekt-dark);
+    }
+
+    .plugin {
+        background-color: var(--plugin-dark);
+    }
+
+    .blueprint {
+        background-color: var(--blueprint-dark);
+    }
+
+    .universe {
+        background-color: var(--universe-dark);
+    }
 }
 
 .rightMargin {
