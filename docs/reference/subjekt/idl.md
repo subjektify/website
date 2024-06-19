@@ -86,12 +86,36 @@ The metadata block is utilized to apply untyped metadata across the entire Subje
 
 Here's an example of defining metadata in a Subjekt model:
 
+<Tabs>
+<TabItem value="subjekt" label="Subjekt">
+
 ```subjekt
-metadata greeting = "hello"
-metadata stringList = ["a", "b", "c"]
+metadata hello = "world"
+metadata someList = ["a", "b", "c"]
 ```
 
+</TabItem>
+<TabItem value="json" label="JSON">
+
+```json
+{
+    "metadata": {
+        "hello": "world",
+        "someList": ["a", "b", "c"]
+    }
+}
+```
+
+</TabItem>
+</Tabs>
+
 ### Shape Block
+
+The shape block of the IDL is used to define shapes and apply traits to shapes.
+
+### Traits
+
+### Node Values
 
 ## Lexical Notes
 
