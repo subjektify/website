@@ -8,7 +8,7 @@ export function SubjektifyToolDetails() {
         <div className={clsx('hero', styles.tool, styles.subjektify)}>
             <div className="container">
                 <h1 className="hero__title">Subjektify</h1>
-                <p className="hero__subtitle">Subjektify is your all-in-one toolkit for building decentralized applications, providing streamlined workflows and robust tools for efficient dApp development.</p>
+                <p className="hero__subtitle">Subjektify is a flexible task runner for building decentralized applications, providing streamlined workflows and robust tools for efficient dApp development.</p>
                 <div>
                     <a
                         className={clsx('button', 'button--primary', 'button--lg', styles.rightMargin)}

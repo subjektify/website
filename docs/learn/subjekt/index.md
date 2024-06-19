@@ -9,11 +9,13 @@ sidebar_position: 5
 ```subjekt title="Example Subject declaration"
 subject Tree {
     version: "1.0.0"
-    states: [Dimensions]
+    state: {
+        dimensions: Dimensions
+    }
     behaviors: [CutTree]
 }
 
-state Dimensions {
+structure Dimensions {
     length: string
     radius: double
 }
@@ -45,7 +47,7 @@ behavior CutTree
 <h3>📜 Declarative Code Generation</h3>
 </div>
 <div class="card__body">
-<p>Automate code generation across multiple programming languages through Subjektify's declarative interface definition language.</p>
+<p>Automate code generation across multiple programming languages with a single model.</p>
 </div>
 </div>
 </div>
