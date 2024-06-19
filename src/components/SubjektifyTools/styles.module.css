@@ -21,12 +21,14 @@
     --plugin-light: #cfe7e0;
     --blueprint-light: #f9b0a8;
     --universe-light: #a2b1d4;
+    --composer-light: #a3d8c9;
 
     --subjektify-dark: #335a99;
     --subjekt-dark: #1d5e6b;
     --plugin-dark: #4d6e66;
     --blueprint-dark: #992b26;
     --universe-dark: #3d4f77;
+    --composer-dark: #4e8f7d;
 }
 
 .subjektify {
@@ -49,6 +51,10 @@
     background-color: var(--universe-light);
 }
 
+.composer {
+    background-color: var(--composer-light);
+}
+
 [data-theme='dark'] .subjektify {
     background-color: var(--subjektify-dark);
 }
@@ -69,6 +75,9 @@
     background-color: var(--universe-dark);
 }
 
+[data-theme='dark'] .composer {
+    background-color: var(--composer-dark);
+}
 
 .rightMargin {
     margin-right: 0.75rem;

@@ -119,7 +119,7 @@ export function UniverseToolDetails() {
                         href="https://universe.subjektify.dev/"
                         target="_blank"
                     >
-                        Check it out
+                        Coming soon
                     </a>
                     <a
                     className="button button--secondary button--lg"
@@ -127,6 +127,26 @@ export function UniverseToolDetails() {
                     >
                         Learn more
                         </a>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export function ComposerToolDetails() {
+    return (
+        <div className={clsx('hero', styles.tool, styles.composer)}>
+            <div className="container">
+                <h1 className="hero__title">Subject Composer</h1>
+                <p className="hero__subtitle">The Subject Composer is a tool for creating, managing, and deploying subjects efficiently, expediting the development process of decentralized applications.</p>
+                <div>
+                    <a
+                        className={clsx('button', 'button--primary', 'button--lg', styles.rightMargin)}
+                        href="https://composer.subjektify.dev/"
+                        target="_blank"
+                    >
+                        Coming soon
+                    </a>
                 </div>
             </div>
         </div>

@@ -121,6 +121,10 @@ const config = {
                 href: 'https://stackoverflow.com/questions/tagged/subjekt',
               },
               {
+                label: 'Reddit',
+                href: 'https://www.reddit.com/r/Subjektify/',
+              },
+              {
                 label: 'Twitter',
                 href: 'https://twitter.com/subjekt',
               },
@@ -140,6 +144,10 @@ const config = {
               {
                 label: 'Plugins',
                 href: 'https://plugins.subjektify.dev/',
+              },
+              {
+                label: 'Subject Composer',
+                href: 'https://composer.subjektify.dev/',
               },
               {
                 label: 'Subject Universe',

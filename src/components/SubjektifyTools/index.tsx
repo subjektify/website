@@ -5,7 +5,8 @@ import {
     SubjektifyToolDetails,
     PluginToolDetails,
     BlueprintToolDetails,
-    UniverseToolDetails
+    UniverseToolDetails,
+    ComposerToolDetails
 } from './tools';
 
 import SubjektifyImage from '@site/static/img/tools/subjektify.svg';
@@ -13,6 +14,7 @@ import SubjektImage from '@site/static/img/tools/subjekt.svg';
 import PluginImage from '@site/static/img/tools/plugin.svg';
 import BlueprintImage from '@site/static/img/tools/blueprint.svg';
 import UniverseImage from '@site/static/img/tools/universe.svg';
+import ComposerImage from '@site/static/img/tools/composer.svg';
 
 import styles from './styles.module.css';
 
@@ -54,6 +56,9 @@ function Pills({ active, setActive }: { active: string; setActive: (active: stri
             <Pill id="universe" title="Universe" active={active} setActive={setActive}>
                 <UniverseImage className={styles.pill} />
             </Pill>
+            <Pill id="composer" title="Composer" active={active} setActive={setActive}>
+                <ComposerImage className={styles.pill} />
+            </Pill>
         </ul>
     );
 }
@@ -70,6 +75,8 @@ function ToolDetails({ active }: { active: string }) {
             return <BlueprintToolDetails />;
         case 'universe':
             return <UniverseToolDetails />;
+        case 'composer':
+            return <ComposerToolDetails />;
         default:
             return null;
     }
