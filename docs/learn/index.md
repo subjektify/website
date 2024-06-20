@@ -15,7 +15,7 @@ Subjektify is a flexible toolkit designed to simplify the development of decentr
 Get started with Subjektify in just a few minutes by following our fast track guide:
 
 1. Install Node.js from [Node.js official website](https://nodejs.org/en/download/).
-2. Create your first Subjektify project:
+2. Add Subjektify to your project:
 
    ```bash
    npx subjektify init
@@ -33,7 +33,7 @@ Subjektify promotes modularity and extensibility by enabling the use of [Bluepri
    npx subjektify build
    ```
 
-4. Automatically generate the necessary code from your Subjekt definitions.
+4. Automatically generate the target languages from your Subjekt definitions.
    ```bash
    npx subjektify codegen
    ```
