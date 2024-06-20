@@ -1,8 +1,6 @@
 # Subjektify's Website
 
-Decentralized applications development environment for professionals.
- 
-[Check it out](https://subjektify.dev)
+Decentralized applications development environment for professionals. [Check it out](https://subjektify.dev)
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 

@@ -16,12 +16,14 @@ function CodeSnippet(): JSX.Element {
     state: {
         name: string
         symbol: string
+        totalSupply: uint256
     }
     behaviors: [
-        mint,
-        transfer
+        mint
     ]
-}`}
+}
+    
+behavior mint`}
             </CodeBlock>
         </div>
     );
