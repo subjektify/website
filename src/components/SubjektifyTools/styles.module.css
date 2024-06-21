@@ -1,9 +1,24 @@
-.pills {
+/*.pills {
     display: flex;
     justify-content: center;
     text-align: center;
     width: 100%;
+    overflow-x: auto;
     padding: 2rem 0;
+}*/
+
+.subjektifyPills {
+    text-align: center;
+    overflow-x: auto;
+    padding: 1rem 0;
+}
+
+@media screen and (min-width: 700px) {
+    .subjektifyPills {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
 }
 
 .pill {
@@ -12,7 +27,7 @@
 }
 
 .tool {
-    height: 25rem;
+    height: 27rem;
 }
 
 :root {

@@ -40,7 +40,7 @@ function Pill({ id, title, active, setActive, children }: PillProps) {
 
 function Pills({ active, setActive }: { active: string; setActive: (active: string) => void }) {
     return (
-        <ul className="pills pills-block">
+        <ul className={clsx('pills', styles.subjektifyPills)}>
             <Pill id="subjektify" title="Subjektify" active={active} setActive={setActive}>
                 <SubjektifyImage className={styles.pill} />
             </Pill>
