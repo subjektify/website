@@ -89,5 +89,3 @@ Detailed API documentation to help you understand and utilize Subjektify’s cap
 ## Feedback and Contributions {#feedback}
 
 Your feedback drives Subjektify's improvement. If you have any suggestions or encounter issues, please [file an issue](https://github.com/subjektify/subjektify/issues) on our GitHub. We welcome contributions of all kinds – from code to documentation!
-
-Join us in redefining the landscape of decentralized applications and Web3 development with Subjektify.
