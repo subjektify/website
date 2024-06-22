@@ -14,13 +14,13 @@ export function SubjektifyToolDetails() {
                         className={clsx('button', 'button--primary', 'button--lg', styles.rightMargin)}
                         href="/docs/learn#fast-track"
                     >
-                        Quick start
+                        Quick Start
                     </a>
                     <a
                         className="button button--secondary button--lg"
                         href='/docs/learn/subjektify'
                     >
-                        Learn more
+                        Learn More
                     </a>
                 </div>
             </div>
@@ -39,7 +39,7 @@ export function SubjektToolDetails() {
                         className={clsx('button', 'button--primary', 'button--lg', styles.rightMargin)}
                         href='/docs/learn/subjekt'
                     >
-                        Learn more
+                        Learn More
                     </a>
                     <a 
                     className="button button--secondary button--lg"
@@ -66,13 +66,13 @@ export function PluginToolDetails() {
                         href="https://plugins.subjektify.dev/"
                         target="_blank"
                     >
-                        Explore plugins
+                        Explore Plugins
                     </a>
                     <a
                         className="button button--secondary button--lg"
                         href='/docs/learn/advanced/plugins'
                     >
-                        Learn more
+                        Learn More
                     </a>
                 </div>
             </div>
@@ -92,13 +92,13 @@ export function BlueprintToolDetails() {
                         href="https://blueprints.subjektify.dev/"
                         target="_blank"
                     >
-                        Explore blueprints
+                        Explore Blueprints
                     </a>
                     <a 
                     className="button button--secondary button--lg"
                     href='/docs/learn/subjektify/blueprints'
                     >
-                        Learn more
+                        Learn More
 
                     </a>
                 </div>
@@ -119,13 +119,13 @@ export function UniverseToolDetails() {
                         href="https://universe.subjektify.dev/"
                         target="_blank"
                     >
-                        Coming soon
+                        Coming Soon
                     </a>
                     <a
                     className="button button--secondary button--lg"
                     href='/docs/learn/subjektify/universe'
                     >
-                        Learn more
+                        Learn More
                         </a>
                 </div>
             </div>
@@ -145,7 +145,7 @@ export function ComposerToolDetails() {
                         href="https://composer.subjektify.dev/"
                         target="_blank"
                     >
-                        Coming soon
+                        Coming Soon
                     </a>
                 </div>
             </div>
