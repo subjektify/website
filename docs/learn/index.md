@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+import SubjektifyTools from "@site/src/components/SubjektifyTools"
+
 # Learn Subjektify
 
 Welcome to the Subjektify learning guide! This is your starting point for understanding how to utilize Subjektify to build robust and scalable decentralized applications (dApps). Whether you are a seasoned developer or new to the world of blockchain, this guide will provide you with the essential knowledge and tools to get started quickly.
@@ -38,47 +40,23 @@ Subjektify promotes modularity and extensibility by enabling the use of [Bluepri
    npx subjektify codegen
    ```
 
-## Why Use Subjektify?
-
-- **Streamlined Development**: Simplifies the complex process of dApp development with intuitive tools and frameworks.
-- **Modular Architecture**: Offers a flexible and modular architecture that can be tailored to your specific project needs.
-- **Comprehensive Tools**: Provides a range of tools for code generation, validation, and compilation, ensuring a seamless development workflow.
-
 ## Core Components
 
-### Subjektify CLI
-
-The Subjektify Command-Line Interface (CLI) is an essential tool that helps developers scaffold, develop, and manage their dApp projects. It offers a variety of commands to initialize new projects, generate code from Subjekt definitions, and deploy applications efficiently.
-
-### Subjekt IDL
-
-Subjektify includes a specialized interface definition language (IDL) known as Subjekt. This language is designed to define and manage the data structures, states, and behaviors that constitute a dApp's architecture. Subjekt IDL ensures that dApp components are well-structured and easy to manage.
-
-### Plugins and Blueprints
-
-Enhance and customize Subjektify’s functionality with plugins and blueprints. These tools allow for rapid development and ensure adherence to best practices, making it easier to extend the capabilities of your dApp.
-
-### Subject Universe
-
-Subject Universe is a core component of Subjektify that provides a comprehensive framework for organizing and managing various subjects across your applications. It allows you to define relationships and interactions between different subjects, ensuring a cohesive and well-structured application architecture.
+<SubjektifyTools />
 
 ## Learning Path
 
-### Tutorials
+1. [Getting Started](/docs/learn/start/): An introduction to Subjektify, including installation instructions and a configuration walkthrough.
 
-Step-by-step tutorial to guide you through specific use cases and features of Subjektify.
+2. [Tutorial](/docs/learn/tutorial): Step-by-step tutorial to guide you through specific use cases and features of Subjektify. This will help you get hands-on experience with building decentralized applications using Subjektify.
 
-### Using Subjektify
+3. [Using Subjektify](/docs/learn/subjektify):Comprehensive guides on how to effectively use the Subjektify toolkit for your dApp development. These guides cover various aspects of the toolkit to ensure you can leverage its full potential.
 
-Comprehensive guides on how to effectively use the Subjektify toolkit for your dApp development, including setup, configuration, and best practices.
+4. [Understanding Subjekt](/docs/learn/subjekt): In-depth explanations of the Subjekt Interface Definition Language (IDL), its syntax, and how to define and manage subjects within your applications. Learn how to create robust and reusable components using Subjekt.
 
-### Understanding Subjekt
+5. [Advanced Topics](/docs/learn/advanced): Explore advanced topics such as custom projections, optimizing your dApp, integrating with other tools and platforms, and more. These guides are designed for experienced developers looking to deepen their knowledge and heavily customize their applications.
 
-In-depth explanations of the Subjekt Interface Definition Language (IDL), its syntax, and how to define and manage subjects within your applications.
-
-### Reference
-
-Detailed API documentation to help you understand and utilize Subjektify’s capabilities to their fullest, including configuration options, CLI commands, and integration guides.
+6. [Reference](/docs/reference): Detailed API documentation to help you understand and utilize Subjektify’s capabilities to their fullest. This section includes configuration options, CLI commands, integration guides, and more to provide a comprehensive reference for all Subjektify features.
 
 ## Stay Informed {#stay-informed}
 

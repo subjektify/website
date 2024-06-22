@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Overview
+# Reference Overview
 
-Welcome to the Subjektify Reference Documentation! This section provides detailed information about the technical aspects of Subjektify, including its components, configurations, and APIs. Whether you are integrating Subjektify into your existing project, or building from scratch, this comprehensive guide is designed to assist you in leveraging the full capabilities of Subjektify.
+This section provides detailed information about the technical aspects of Subjektify, including its components, configurations, and APIs. Whether you are integrating Subjektify into your existing project, or building from scratch, this comprehensive guide is designed to assist you in leveraging the full capabilities of Subjektify.
 
 ## Conventions used in this section
 

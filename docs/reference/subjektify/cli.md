@@ -11,11 +11,37 @@ The Subjektify CLI is a powerful command-line interface designed to streamline t
 
 ## Installation
 
-Before using the Subjektify CLI, ensure you have Node.js installed. You can install the Subjektify CLI in your project using npm:
+Before using the Subjektify CLI, ensure you have Node.js installed. You can install the Subjektify CLI in your project using:
+
+<Tabs>
+<TabItem value="npm" label="npm">
 
 ```bash
-npm install -D subjektify
+npm install -D subjektify @subjektifylabs/subjektify-toolbox
 ```
+
+:::note
+
+[`@subjektifylabs/subjektify-toolbox`](https://github.com/subjektify/subjektify/tree/main/packages/subjektify-toolbox) contains all the essential plugins you need to get started with dApp development
+
+:::
+
+</TabItem>
+<TabItem value="yarn" label="Yarn">
+
+```bash
+yarn add --dev subjektify @subjektifylabs/subjektify-toolbox
+```
+
+</TabItem>
+<TabItem value="pnpm" label="pnpm">
+
+```bash
+pnpm install -D subjektify @subjektifylabs/subjektify-toolbox
+```
+
+</TabItem>
+</Tabs>
 
 ## Commands
 
