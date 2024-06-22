@@ -44,20 +44,6 @@ Subjektify promotes modularity and extensibility by enabling the use of [Bluepri
 
 <SubjektifyTools />
 
-## Learning Path
-
-1. [Getting Started](/docs/learn/start/): An introduction to Subjektify, including installation instructions and a configuration walkthrough.
-
-2. [Tutorial](/docs/learn/tutorial): Step-by-step tutorial to guide you through specific use cases and features of Subjektify. This will help you get hands-on experience with building decentralized applications using Subjektify.
-
-3. [Using Subjektify](/docs/learn/subjektify):Comprehensive guides on how to effectively use the Subjektify toolkit for your dApp development. These guides cover various aspects of the toolkit to ensure you can leverage its full potential.
-
-4. [Understanding Subjekt](/docs/learn/subjekt): In-depth explanations of the Subjekt Interface Definition Language (IDL), its syntax, and how to define and manage subjects within your applications. Learn how to create robust and reusable components using Subjekt.
-
-5. [Advanced Topics](/docs/learn/advanced): Explore advanced topics such as custom projections, optimizing your dApp, integrating with other tools and platforms, and more. These guides are designed for experienced developers looking to deepen their knowledge and heavily customize their applications.
-
-6. [Reference](/docs/reference): Detailed API documentation to help you understand and utilize Subjektify’s capabilities to their fullest. This section includes configuration options, CLI commands, integration guides, and more to provide a comprehensive reference for all Subjektify features.
-
 ## Stay Informed {#stay-informed}
 
 - [Blog](/blog): Latest updates, features, and community stories.
