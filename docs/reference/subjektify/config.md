@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 import Tabs from '@theme/Tabs';
@@ -85,6 +85,17 @@ export default {
 ```
 
 ## Optional fields
+
+
+### `author`
+
+The author of the namespace. This is used to display the author across Subjektify's applications. This value is looked up in `package.json` if not passed in `subjektify.config.(js|ts)`.
+
+```js
+export default {
+    author: "<your-org>"
+}
+```
 
 ### `homepage`
 
