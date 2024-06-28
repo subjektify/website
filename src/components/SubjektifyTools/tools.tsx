@@ -41,9 +41,9 @@ export function SubjektToolDetails() {
                     >
                         Learn More
                     </a>
-                    <a 
-                    className="button button--secondary button--lg"
-                    href='/docs/reference/subjekt'
+                    <a
+                        className="button button--secondary button--lg"
+                        href='/docs/reference/subjekt'
                     >
                         Specification
 
@@ -94,9 +94,9 @@ export function BlueprintToolDetails() {
                     >
                         Explore Blueprints
                     </a>
-                    <a 
-                    className="button button--secondary button--lg"
-                    href='/docs/learn/subjektify/blueprints'
+                    <a
+                        className="button button--secondary button--lg"
+                        href='/docs/learn/subjektify/blueprints'
                     >
                         Learn More
 
@@ -122,11 +122,11 @@ export function UniverseToolDetails() {
                         Coming Soon
                     </a>
                     <a
-                    className="button button--secondary button--lg"
-                    href='/docs/learn/subjektify/universe'
+                        className="button button--secondary button--lg"
+                        href='/docs/learn/subjektify/universe'
                     >
                         Learn More
-                        </a>
+                    </a>
                 </div>
             </div>
         </div>
