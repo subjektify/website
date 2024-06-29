@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # The Subjekt Model
 
-The Subjekt model describes the Subjekt semantic model and the files used to create it. Subjekt models are used to describe smart contracts, subjects and data structures.
+The Subjekt model describes the Subjekt semantic model and the files used to create it. Subjekt models are used to describe data structures, smart contracts, services, and subjects.
 
 ## Subjekt Overview
 
@@ -14,11 +14,11 @@ The Subjekt model can be represented in various forms, including as a semantic m
 
 #### Semantic model
 
-The in-memory model used by tools. The semantic model may be serialized into one or more model file representations.
+The in-memory model used by tools. The [semantic model](#semantic-model) may be serialized into one or more model file representations.
 
 #### Model File
 
-A file on the file system, in a particular representation. The model files that make up a semantic model MAY be split across multiple files to improve readability or modularity, and those files are not required to use the same representation. Model files do not explicitly include other model files; this responsibility is left to tooling to ensure that all necessary model files are merged together to form a valid semantic model.
+A file on the file system in a specific format. Model files can be divided across multiple files for better readability or modularity, and these files can use different formats (`.subjekt` or `.json`). It's the responsibility of the tooling to merge all necessary model files into a valid semantic model, as model files do not explicitly include one another.
 
 #### Representation
 
@@ -27,6 +27,6 @@ A particular model file format such as the Subjekt IDL or JSON AST. Representati
 - [**Subjekt IDL**](./idl): a human-readable format that aims to streamline authoring, reading, and sharing models.
 - [**JSON AST**](./ast): a machine-readable JSON-based format.
 
-## The Semantic Model
+## Semantic Model
 
 The Subjekt's semantic model is an in-memory model used by tools. It is independent of any particular serialized representation. The semantic model contains metadata and a graph of shapes connected by shape IDs.
