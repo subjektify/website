@@ -14,4 +14,6 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 Please report technical errors and ambiguities in this specification to the [Subjekt GitHub repository](https://github.com/subjektify/subjekt). This specification is open source; contributions are welcome.
 
+## Content
+
 <DocCardList />
