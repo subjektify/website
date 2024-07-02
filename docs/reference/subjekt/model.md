@@ -104,6 +104,71 @@ subjekt.example.foo#ExampleShapeName$memberName
 
 Shapes are named definitions of types. Shapes are visualized using the below diagram:
 
+![Shapes](./Shapes.svg)
+
+Shapes are grouped intro three categories, [Simple](#simple-shapes), [Aggregate](#aggregate-shapes), and [Subject](#subject-shapes) shapes.
+
+### Simple Shapes
+
+Simple shape types are fundamental data types that do not contain nested types or shape references. They are used to define the properties of states and behaviors within subjects. Below is a comprehensive list of simple shapes available in Subjektify.
+
+| Type | Description |
+| ---- | ----------- |
+| [address](/docs/reference/subjekt/types/simple#address) | Ethereum wallet addresses generated using the Keccak-256 hashing algorithm. |
+| [blob](/docs/reference/subjekt/types/simple#blob) | Uninterpreted binary data. |
+| [boolean](/docs/reference/subjekt/types/simple#boolean) | A true or false value. |
+| [byte](/docs/reference/subjekt/types/simple#byte) | An 8-bit unsigned integer. |
+| [bytes](/docs/reference/subjekt/types/simple#bytes) | An array of bytes. |
+| [document](/docs/reference/subjekt/types/simple#document) | Arbitrary JSON-like data structures. |
+| [double](/docs/reference/subjekt/types/simple#double) | A double-precision floating point number. |
+| [enum](/docs/reference/subjekt/types/simple#enum) | An enumeration type, representing a fixed set of named values. |
+| [float](/docs/reference/subjekt/types/simple#float) | A single-precision floating point number. |
+| [uint](/docs/reference/subjekt/types/simple#uint) | An unsigned integer. |
+| [uint8](/docs/reference/subjekt/types/simple#uint8) | An 8-bit unsigned integer. |
+| [uint16](/docs/reference/subjekt/types/simple#uint16) | A 16-bit unsigned integer. |
+| [uint32](/docs/reference/subjekt/types/simple#uint32) | A 32-bit unsigned integer. |
+| [uint64](/docs/reference/subjekt/types/simple#uint64) | A 64-bit unsigned integer. |
+| [uint128](/docs/reference/subjekt/types/simple#uint128) | A 128-bit unsigned integer. |
+| [uint256](/docs/reference/subjekt/types/simple#uint256) | A 256-bit unsigned integer. |
+| [int](/docs/reference/subjekt/types/simple#int) | A signed integer. |
+| [int8](/docs/reference/subjekt/types/simple#int8) | An 8-bit signed integer. |
+| [int16](/docs/reference/subjekt/types/simple#int16) | A 16-bit signed integer. |
+| [int32](/docs/reference/subjekt/types/simple#int32) | A 32-bit signed integer. |
+| [int64](/docs/reference/subjekt/types/simple#int64) | A 64-bit signed integer. |
+| [int128](/docs/reference/subjekt/types/simple#int128) | A 128-bit signed integer. |
+| [int256](/docs/reference/subjekt/types/simple#int256) | A 256-bit signed integer. |
+| [string](/docs/reference/subjekt/types/simple#string) | A sequence of characters. |
+| [timestamp](/docs/reference/subjekt/types/simple#timestamp) | A point in time, typically represented as a UNIX timestamp. |
+| [hash256](/docs/reference/subjekt/types/simple#hash256) | A 256-bit cryptographic hash. |
+| [hash512](/docs/reference/subjekt/types/simple#hash512) | A 512-bit cryptographic hash. |
+| [none](/docs/reference/subjekt/types/simple#none) | A placeholder type indicating the absence of a value. |
+
+These types form the building blocks for more complex structures and interactions within your Subjektify projects.
+
+### Aggregate Shapes
+
+Aggregate types contain configurable member references to others shapes.
+
+| Type | Description |
+| ---- | ----------- |
+| [enum](/docs/reference/subjekt/types/aggregate#enum) | 	A string with a fixed set of values. |
+| [list](/docs/reference/subjekt/types/subject#list) | Ordered collection of homogeneous values. |
+| [map](/docs/reference/subjekt/types/aggregate#map) | Map data structure that maps string keys to homogeneous values. |
+| [structure](/docs/reference/subjekt/types/subject#structure)     | Fixed set of named heterogeneous members. |
+
+
+### Subject Shapes
+
+Subject types define various components within the Subject-Oriented Programming (SOP) framework, each serving distinct roles within the subject's lifecycle and interactions.
+
+| Type         | Description                                         |
+|--------------|-----------------------------------------------------|
+| [subject](/docs/reference/subjekt/types/subject#subject) | Represents the overarching container of states, behaviors, and subscriptions. |
+| [behavior](/docs/reference/subjekt/types/subject#behavior) | Defines actionable functions or methods within a subject. |
+| [event](/docs/reference/subjekt/types/subject#event) | Events define specific conditions or triggers that activate behaviors. |
+| [error](/docs/reference/subjekt/types/subject#error) | Errors define types structures for custom errors. |
+
+
 ## Traits
 
 ## Prelude

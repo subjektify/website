@@ -6,7 +6,7 @@ sidebar_position: 1
 
 This section provides detailed information about the technical aspects of Subjektify and Subjekt. Each covering topics from configuration to detailed specification.
 
-## What You Will Find Here
+## Content Overview
 
 The reference section is divided into two key areas, each targeting a specific aspect of Subjektify:
 

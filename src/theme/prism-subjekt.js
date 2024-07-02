@@ -5,7 +5,7 @@ Prism.languages.subjekt = {
         pattern: /@[\w-]+/,
         alias: 'keyword'
     },
-    'type': /\b(address|keccak256Address|ed25519Address|uint|uint8|uint16|uint32|uint256|int|int8|int16|int32|int256|byte|bytes|bytes32|blob|boolean|document|string|float|double|bigInteger|bigDecimal|timestamp|hash256|hash512|unit)\b/,
+    'type': /\b(address|uint|uint8|uint16|uint32|uint256|int|int8|int16|int32|int256|byte|bytes|bytes32|blob|boolean|document|string|float|double|timestamp|hash256|hash512|none)\b/,
     'string': {
         pattern: /(['"])(?:\\\1|.)*?\1/,
         greedy: true

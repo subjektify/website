@@ -8,7 +8,7 @@ function CodeSnippet(): JSX.Element {
         <div className={styles.codeSnippet}>
             <CodeBlock
                 language='subjekt'
-                title='Token.subjekt'
+                title='MyToken.subjekt'
                 showLineNumbers
                 className={styles.codeBlock}
             >
