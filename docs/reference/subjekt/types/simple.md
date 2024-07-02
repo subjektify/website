@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Simple Types
 
 Simple types represent fundamental data types that can be used to define the properties of states and behaviors within subjects. Each type is designed to handle specific kinds of data, from numeric values to complex cryptographic addresses.
@@ -6,18 +10,6 @@ Simple types represent fundamental data types that can be used to define the pro
 Represents Ethereum wallet addresses generated using the Keccak-256 hashing algorithm.
 ```subjekt
 address walletAddress
-```
-
-### `bigDecimal`
-A bigDecimal is an arbitrary precision signed decimal number.
-```subjekt
-bigDecimal amount
-```
-
-### `bigInteger`
-A bigInteger is an arbitrarily large signed integer.
-```subjekt
-bigInteger largeNumber
 ```
 
 ### `blob`
@@ -61,31 +53,31 @@ enum Suit {
 }
 ```
 
-### `float`
+## `float`
 A float is a single precision IEEE-754 floating point number.
 ```subjekt
 float temperature;
 ```
 
-### `hash256`
+## `hash256`
 Represents a 256-bit hash value, typically used in cryptographic operations.
 ```subjekt
 hash256 transactionHash;
 ```
 
-### `hash512`
+## `hash512`
 Represents a 512-bit hash value for enhanced cryptographic security.
 ```subjekt
 hash512 secureHash;
 ```
 
-### `int`
+## `int`
 An integer is a 32-bit signed integer ranging from -2^31 to (2^31)-1 (inclusive).
 ```subjekt
 int counter;
 ```
 
-### `int8`, `int16`, `int32`, `int64`, `int128`, `int256` {#intx}
+## `int8`, `int16`, `int32`, `int64`, `int128`, `int256` {#intx}
 Represent signed integers of different bit sizes.
 ```subjekt
 int8 smallInt;
@@ -96,43 +88,31 @@ int128 veryLargeInt;
 int256 ultraLargeInt;
 ```
 
-### `long`
-A long is a 64-bit signed integer ranging from -2^63 to (2^63)-1 (inclusive).
-```subjekt
-long bigCount;
-```
-
-### `none`
+## `none`
 Represents the absence of a value.
 ```subjekt
 none noValue;
 ```
 
-### `short`
-A short is a 16-bit signed integer ranging from -32,768 to 32,767 (inclusive).
-```subjekt
-short smallCount;
-```
-
-### `string`
+## `string`
 A string is UTF-8 encoded text data.
 ```subjekt
 string name;
 ```
 
-### `timestamp`
+## `timestamp`
 A timestamp represents an instant in time in the proleptic Gregorian calendar, independent of local times or timezones.
 ```subjekt
 timestamp createdAt;
 ```
 
-### `uint`
+## `uint`
 Represents unsigned integer values.
 ```subjekt
 uint total;
 ```
 
-### `uint8`, `uint16`, `uint32`, `uint64`, `uint128`, `uint256` {#uintx}
+## `uint8`, `uint16`, `uint32`, `uint64`, `uint128`, `uint256` {#uintx}
 Represent unsigned integers of different bit sizes.
 ```subjekt
 uint8 smallUnsigned;

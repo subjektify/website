@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Subject Types
 
 Subject types define various components within the Subject-Oriented Programming (SOP) framework, each serving distinct roles within the subject's lifecycle and interactions.

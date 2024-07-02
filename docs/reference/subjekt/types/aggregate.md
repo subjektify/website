@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Aggregate Types
 
 Aggregate types contain configurable member references to others shapes.
