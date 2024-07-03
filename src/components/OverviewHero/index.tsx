@@ -19,11 +19,11 @@ function CodeSnippet(): JSX.Element {
         totalSupply: uint256
     }
     behaviors: [
-        mint
+        Mint
     ]
 }
     
-behavior mint`}
+behavior Mint`}
             </CodeBlock>
         </div>
     );
