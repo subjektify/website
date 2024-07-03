@@ -81,25 +81,6 @@ The following example defines a trait using a node value:
 string MyString
 ```
 
-## Shape ID
-
-A shape ID is used to refer to shapes in the model. All shapes have an assigned shape ID. Shape IDs have the following syntax:
-
-```
-subjekt.example.foo#ExampleShapeName$memberName
-└─────────┬──────┘ └───────┬──────┘ └────┬───┘
-     (Namespace)   (Shape name)  (Member name)
-                  └──────────────┬────────────┘
-                         (Relative shape ID)
-└──────────────────────┬───────────────────────┘
-              (Absolute shape ID)
-```
-
-- **Absolute shape ID**: An absolute shape ID starts with a namespace, followed by "#", followed by a relative shape ID.
-- **Relative shape ID**: A relative shape ID contains a shape name and an optional member name. The shape name and member name are separated by the "$" symbol if a member name is present.
-- **Namespace**: A namespace is a mechanism for logically grouping shapes in a way that makes them reusable alongside other models without naming conflicts. A semantic model may contain shapes defined across different namespaces.
-- **Shape name**: The name of the shape within a namespace. Model authors should utilize a strict form of PascalCase in which only the first letter of acronyms, abbreviations, and initialisms are capitalized. For example, prefer UserId over UserID, and Arn over ARN.
-
 ## Shapes
 
 Shapes are named definitions of types. Shapes are visualized using the below diagram:
@@ -119,17 +100,9 @@ Simple shape types are fundamental data types that do not contain nested types o
 | [boolean](/docs/reference/subjekt/types/simple#boolean) | A true or false value. |
 | [byte](/docs/reference/subjekt/types/simple#byte) | An 8-bit unsigned integer. |
 | [bytes](/docs/reference/subjekt/types/simple#bytes) | An array of bytes. |
-| [document](/docs/reference/subjekt/types/simple#document) | Arbitrary JSON-like data structures. |
+| [document](/docs/reference/subjekt/types/simple#document) | Arbitrary JSON-like data structure. |
 | [double](/docs/reference/subjekt/types/simple#double) | A double-precision floating point number. |
-| [enum](/docs/reference/subjekt/types/simple#enum) | An enumeration type, representing a fixed set of named values. |
 | [float](/docs/reference/subjekt/types/simple#float) | A single-precision floating point number. |
-| [uint](/docs/reference/subjekt/types/simple#uint) | An unsigned integer. |
-| [uint8](/docs/reference/subjekt/types/simple#uint8) | An 8-bit unsigned integer. |
-| [uint16](/docs/reference/subjekt/types/simple#uint16) | A 16-bit unsigned integer. |
-| [uint32](/docs/reference/subjekt/types/simple#uint32) | A 32-bit unsigned integer. |
-| [uint64](/docs/reference/subjekt/types/simple#uint64) | A 64-bit unsigned integer. |
-| [uint128](/docs/reference/subjekt/types/simple#uint128) | A 128-bit unsigned integer. |
-| [uint256](/docs/reference/subjekt/types/simple#uint256) | A 256-bit unsigned integer. |
 | [int](/docs/reference/subjekt/types/simple#int) | A signed integer. |
 | [int8](/docs/reference/subjekt/types/simple#int8) | An 8-bit signed integer. |
 | [int16](/docs/reference/subjekt/types/simple#int16) | A 16-bit signed integer. |
@@ -137,11 +110,16 @@ Simple shape types are fundamental data types that do not contain nested types o
 | [int64](/docs/reference/subjekt/types/simple#int64) | A 64-bit signed integer. |
 | [int128](/docs/reference/subjekt/types/simple#int128) | A 128-bit signed integer. |
 | [int256](/docs/reference/subjekt/types/simple#int256) | A 256-bit signed integer. |
+| [none](/docs/reference/subjekt/types/simple#none) | A placeholder type indicating the absence of a value. |
 | [string](/docs/reference/subjekt/types/simple#string) | A sequence of characters. |
 | [timestamp](/docs/reference/subjekt/types/simple#timestamp) | A point in time, typically represented as a UNIX timestamp. |
-| [hash256](/docs/reference/subjekt/types/simple#hash256) | A 256-bit cryptographic hash. |
-| [hash512](/docs/reference/subjekt/types/simple#hash512) | A 512-bit cryptographic hash. |
-| [none](/docs/reference/subjekt/types/simple#none) | A placeholder type indicating the absence of a value. |
+| [uint](/docs/reference/subjekt/types/simple#uint) | An unsigned integer. |
+| [uint8](/docs/reference/subjekt/types/simple#uint8) | An 8-bit unsigned integer. |
+| [uint16](/docs/reference/subjekt/types/simple#uint16) | A 16-bit unsigned integer. |
+| [uint32](/docs/reference/subjekt/types/simple#uint32) | A 32-bit unsigned integer. |
+| [uint64](/docs/reference/subjekt/types/simple#uint64) | A 64-bit unsigned integer. |
+| [uint128](/docs/reference/subjekt/types/simple#uint128) | A 128-bit unsigned integer. |
+| [uint256](/docs/reference/subjekt/types/simple#uint256) | A 256-bit unsigned integer. |
 
 These types form the building blocks for more complex structures and interactions within your Subjektify projects.
 
@@ -151,11 +129,10 @@ Aggregate types contain configurable member references to others shapes.
 
 | Type | Description |
 | ---- | ----------- |
-| [enum](/docs/reference/subjekt/types/aggregate#enum) | 	A string with a fixed set of values. |
+| [enum](/docs/reference/subjekt/types/aggregate#enum) | An enumeration type, representing a fixed set of named values. |
 | [list](/docs/reference/subjekt/types/subject#list) | Ordered collection of homogeneous values. |
 | [map](/docs/reference/subjekt/types/aggregate#map) | Map data structure that maps string keys to homogeneous values. |
 | [structure](/docs/reference/subjekt/types/subject#structure)     | Fixed set of named heterogeneous members. |
-
 
 ### Subject Shapes
 
@@ -168,6 +145,24 @@ Subject types define various components within the Subject-Oriented Programming 
 | [event](/docs/reference/subjekt/types/subject#event) | Events define specific conditions or triggers that activate behaviors. |
 | [error](/docs/reference/subjekt/types/subject#error) | Errors define types structures for custom errors. |
 
+## Shape ID
+
+A shape ID is used to refer to shapes in the model. All shapes have an assigned shape ID. Shape IDs have the following syntax:
+
+```
+subjekt.example.foo#ExampleShapeName$memberName
+└─────────┬──────┘ └───────┬──────┘ └────┬───┘
+     (Namespace)   (Shape name)  (Member name)
+                  └──────────────┬────────────┘
+                         (Relative shape ID)
+└──────────────────────┬───────────────────────┘
+              (Absolute shape ID)
+```
+
+- **Absolute shape ID**: An absolute shape ID starts with a namespace, followed by "#", followed by a relative shape ID.
+- **Relative shape ID**: A relative shape ID contains a shape name and an optional member name. The shape name and member name are separated by the "$" symbol if a member name is present.
+- **Namespace**: A namespace is a mechanism for logically grouping shapes in a way that makes them reusable alongside other models without naming conflicts. A semantic model may contain shapes defined across different namespaces.
+- **Shape name**: The name of the shape within a namespace. Model authors should utilize a strict form of PascalCase in which only the first letter of acronyms, abbreviations, and initialisms are capitalized. For example, prefer UserId over UserID.
 
 ## Traits
 

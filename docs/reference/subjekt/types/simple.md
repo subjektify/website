@@ -53,18 +53,6 @@ A float is a single precision IEEE-754 floating point number.
 float temperature;
 ```
 
-## `hash256`
-Represents a 256-bit hash value, typically used in cryptographic operations.
-```subjekt
-hash256 transactionHash;
-```
-
-## `hash512`
-Represents a 512-bit hash value for enhanced cryptographic security.
-```subjekt
-hash512 secureHash;
-```
-
 ## `int`
 An integer is a 32-bit signed integer ranging from -2^31 to (2^31)-1 (inclusive).
 ```subjekt

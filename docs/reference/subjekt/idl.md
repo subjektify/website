@@ -65,58 +65,6 @@ structure MyStructure {
 </TabItem>
 </Tabs>
 
-## Language Components
-
-### Comments
-A [comment](#comments-1) can appear at any place between tokens where whitespace [WS](#whitepace) can appear. Comments in Subjekt are defined using two forward slashes followed by any character. A newline terminates a comment.
-
-```subjekt
-// This is a comment
-string MyString // This is also a comment
-
-/// This is documentation about a trait shape.
-/// More docs here.
-@trait
-structure myTrait {}
-```
-
-### Metadata Block
-
-The metadata block is utilized to apply untyped metadata across the entire Subjekt model. In a `MetadataStatement`, a metadata key is defined, followed by `=`, and then the node value assigned to that key.
-
-Here's an example of defining metadata in a Subjekt model:
-
-<Tabs>
-<TabItem value="subjekt" label="Subjekt">
-
-```subjekt
-metadata hello = "world"
-metadata someList = ["a", "b", "c"]
-```
-
-</TabItem>
-<TabItem value="json" label="JSON">
-
-```json
-{
-    "metadata": {
-        "hello": "world",
-        "someList": ["a", "b", "c"]
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-### Shape Block
-
-The shape block of the IDL is used to define shapes and apply traits to shapes.
-
-### Traits
-
-### Node Values
-
 ## Lexical Notes
 
 - Subjekt models MUST be encoded using UTF-8 and SHOULD use Unix style line endings `\n`.
@@ -175,6 +123,99 @@ MetadataBlock =
 
 MetadataStatement =
     %s"metadata" SP NodeObjectKey [SP] "=" [SP] NodeValue BR
+```
+
+### Node Value
+
+```abnf
+NodeValue =
+    NodeArray
+  / NodeObject
+  / Number
+  / NodeKeyword
+  / NodeStringValue
+
+NodeArray =
+    "[" [WS] *(NodeValue [WS]) "]"
+
+NodeObject =
+    "{" [WS] [NodeObjectKvp *(WS NodeObjectKvp)] [WS] "}"
+
+NodeObjectKvp =
+    NodeObjectKey [WS] ":" [WS] NodeValue
+
+NodeObjectKey =
+    QuotedText / Identifier
+
+Number =
+    [Minus] Int [Frac] [Exp]
+
+DecimalPoint =
+    %x2E ; .
+
+DigitOneToNine =
+    %x31-39 ; 1-9
+
+E =
+    %x65 / %x45 ; e E
+
+Exp =
+    E [Minus / Plus] 1*DIGIT
+
+Frac =
+    DecimalPoint 1*DIGIT
+
+Int =
+    Zero / (DigitOneToNine *DIGIT)
+
+Minus =
+    %x2D ; -
+
+Plus =
+    %x2B ; +
+
+Zero =
+    %x30 ; 0
+
+NodeKeyword =
+    %s"true" / %s"false" / %s"null"
+
+NodeStringValue =
+    ShapeId / TextBlock / QuotedText
+
+QuotedText =
+    DQUOTE *QuotedChar DQUOTE
+
+QuotedChar =
+    %x09        ; tab
+  / %x20-21     ; space - "!"
+  / %x23-5B     ; "#" - "["
+  / %x5D-10FFFF ; "]"+
+  / EscapedChar
+  / NL
+
+EscapedChar =
+    Escape (Escape / DQUOTE / %s"b" / %s"f"
+             / %s"n" / %s"r" / %s"t" / "/"
+             / UnicodeEscape)
+
+UnicodeEscape =
+    %s"u" Hex Hex Hex Hex
+
+Hex =
+    DIGIT / %x41-46 / %x61-66
+
+Escape =
+    %x5C ; backslash
+
+TextBlock =
+    ThreeDquotes [SP] NL *TextBlockContent ThreeDquotes
+
+TextBlockContent =
+    QuotedChar / (1*2DQUOTE 1*QuotedChar)
+
+ThreeDquotes =
+    DQUOTE DQUOTE DQUOTE
 ```
 
 ### ShapeBlock
@@ -313,99 +354,6 @@ IdentifierChars =
 
 ShapeIdMember =
     "$" Identifier
-```
-
-### Node Values
-
-```abnf
-NodeValue =
-    NodeArray
-  / NodeObject
-  / Number
-  / NodeKeyword
-  / NodeStringValue
-
-NodeArray =
-    "[" [WS] *(NodeValue [WS]) "]"
-
-NodeObject =
-    "{" [WS] [NodeObjectKvp *(WS NodeObjectKvp)] [WS] "}"
-
-NodeObjectKvp =
-    NodeObjectKey [WS] ":" [WS] NodeValue
-
-NodeObjectKey =
-    QuotedText / Identifier
-
-Number =
-    [Minus] Int [Frac] [Exp]
-
-DecimalPoint =
-    %x2E ; .
-
-DigitOneToNine =
-    %x31-39 ; 1-9
-
-E =
-    %x65 / %x45 ; e E
-
-Exp =
-    E [Minus / Plus] 1*DIGIT
-
-Frac =
-    DecimalPoint 1*DIGIT
-
-Int =
-    Zero / (DigitOneToNine *DIGIT)
-
-Minus =
-    %x2D ; -
-
-Plus =
-    %x2B ; +
-
-Zero =
-    %x30 ; 0
-
-NodeKeyword =
-    %s"true" / %s"false" / %s"null"
-
-NodeStringValue =
-    ShapeId / TextBlock / QuotedText
-
-QuotedText =
-    DQUOTE *QuotedChar DQUOTE
-
-QuotedChar =
-    %x09        ; tab
-  / %x20-21     ; space - "!"
-  / %x23-5B     ; "#" - "["
-  / %x5D-10FFFF ; "]"+
-  / EscapedChar
-  / NL
-
-EscapedChar =
-    Escape (Escape / DQUOTE / %s"b" / %s"f"
-             / %s"n" / %s"r" / %s"t" / "/"
-             / UnicodeEscape)
-
-UnicodeEscape =
-    %s"u" Hex Hex Hex Hex
-
-Hex =
-    DIGIT / %x41-46 / %x61-66
-
-Escape =
-    %x5C ; backslash
-
-TextBlock =
-    ThreeDquotes [SP] NL *TextBlockContent ThreeDquotes
-
-TextBlockContent =
-    QuotedChar / (1*2DQUOTE 1*QuotedChar)
-
-ThreeDquotes =
-    DQUOTE DQUOTE DQUOTE
 ```
 
 ### Traits
