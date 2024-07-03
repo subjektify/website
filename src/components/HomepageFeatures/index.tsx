@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
     image: <FlexibilityImage className={styles.featureSvg} />,
   },
   {
-    title: '100% Open Source',
+    title: 'Open Source',
     description: 'Subjektify is fully open-source, providing transparency, flexibility, and control over your decentralized application development.',
     image: <OpenSourceImage className={styles.featureSvg} />,
   },
