@@ -8,7 +8,6 @@ sidebar_position: 5
 
 ```subjekt title="Example Subject declaration"
 subject Tree {
-    version: "1.0.0"
     state: {
         dimensions: Dimensions
     }

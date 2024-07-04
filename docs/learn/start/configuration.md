@@ -28,7 +28,7 @@ First, let’s set up the basic configuration which involves defining the projec
 
 ```js
 module.exports = {
-    namespace: "my.dapp",
+    namespace: "my-dapp",
     version: "1.0.0",
     license: "MIT",
     // Additional configurations...
@@ -40,7 +40,7 @@ module.exports = {
 
 ```ts
 const config = {
-    namespace: "my.dapp",
+    namespace: "my-dapp",
     version: "1.0.0",
     license: "MIT",
     // Additional configurations...
@@ -52,9 +52,9 @@ export default config;
 </TabItem>
 </Tabs>
 
-#### 1. Define Your Namespace to something unique that describes your project.
-#### 2. Set the Version following [Semantic Versioning](https://semver.org/).
-#### 3. Specify the License using an [SPDX license identifier](https://spdx.org/licenses/).
+1. Define Your Namespace to something unique that describes your project.
+2. Set the Version following [Semantic Versioning](https://semver.org/).
+3. Specify the License using an [SPDX license identifier](https://spdx.org/licenses/).
 
 
 ### Advanced Configuration
@@ -63,40 +63,40 @@ Now, let’s dive into more complex settings that can help tailor your project.
 
 #### 4. Configure Optional Fields
 
-These fields include settings for authorship, whether the project is a blueprint, and other key configurations that enhance project functionality.
+These fields include settings for authorship, public display homepage and description, and other key configurations that enhance project functionality.
 
-##### Author Information
+<Tabs>
+<TabItem value="js" label="JavaScript">
 
-If you want to provide authorship information:
-
-- **Add** the `author` key.
-- **Include** your name or alias.
-
-```json
-"author": "John Doe"
+```js
+module.exports = {
+    // Additional configurations...
+    author: "MyOrg",
+    homepage: "https://mywebsite.com",
+    description: "My awesome namespace",
+    keyword: [ "MyTag" ]
+    // Additional configurations...
+}
 ```
 
-##### Blueprint Setting
+</TabItem>
+<TabItem value="ts" label="Typescript">
 
-To use your project as a template for others:
+```ts
+const config = {
+    // Additional configurations...
+    author: "MyOrg",
+    homepage: "https://mywebsite.com",
+    description: "My awesome namespace",
+    keyword: [ "MyTag" ]
+    // Additional configurations...
+}
 
-- **Include** the `blueprint` key.
-- **Set** the value to `true`.
-
-```json
-"blueprint": true
+export default config;
 ```
 
-#### 5. Include Specific Files
-
-You might want to specify which files should be explicitly recognized by the project:
-
-- **Add** the `files` key.
-- **List** the paths to the files.
-
-```json
-"files": ["contracts/MyContract.sol", "doc/MyDocument.md"]
-```
+</TabItem>
+</Tabs>
 
 ## Next Steps
 

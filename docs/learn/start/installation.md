@@ -40,8 +40,7 @@ my.namespace
 │   ├── universe.subjekt
 ├── subjektify.config.(js|ts)
 ├── package.json
-├── README.md
-└── yarn.lock
+└── README.md
 ```
 
 ### Directory and File Details
@@ -53,23 +52,23 @@ my.namespace
 
 ## Building the Subjekt model
 
-To build your subjekt model, which can be used from within the [SubjektifyRuntimeEnvironment](#), run:
+To build your subjekt model, which can be used from within the [SubjektifyRuntimeEnvironment](/docs/reference/subjektify/runtime), run:
 
 ```bash
 npx subjektify build
 ```
 
-This command will launch a local development server and open your project in a web browser.
+This command will build the Subjekt model and write the JSON abstract syntax tree in the defined `outputDirectory`.
 
 ## Generate code
 
-Generate necessary client-side libraries or server stubs using Subjektify’s code generation tool:
+Generate necessary client-side libraries or smart contracts using Subjektify’s code generation tool:
 
 ```bash
 npx subjektify codegen
 ```
 
-This will process your project's Subjekt model and other resources to produce interoperable code that can be used in your dApp frontend or backend.
+This will build your Subjekt model to produce interoperable code that can be used in your dApp frontend or blockchain.
 
 ## Versioning
 

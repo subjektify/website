@@ -10,7 +10,7 @@ Welcome to the Subjektify learning guide! This is your starting point for unders
 
 ## What is Subjektify?
 
-Subjektify is a flexible toolkit designed to simplify the development of decentralized applications. It utilizes a subject-oriented programming approach, making it easier to define and manage the data structures, states, and behaviors across your applications.
+Subjektify is a flexible toolkit designed to simplify the development of decentralized applications. It utilizes a subject-oriented programming approach, making it easier to define and manage the data structures, states, and behaviors across your application.
 
 ## Fast Track ⏱️ {#fast-track}
 

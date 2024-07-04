@@ -274,18 +274,18 @@ module.exports = {
 <TabItem value="ts" label="TypeScript">
 
 ```ts title="subjektify.config.ts"
-import { SubjektifyConfig, CodeGenTarget, CodeGenLanguage } from 'subjektify';
+import { SubjektifyConfig } from 'subjektify';
 
 const config: SubjektifyConfig = {
     codegen: [
         {
-            target: CodeGenTarget.Client,
-            language: CodeGenLanguage.TypeScript,
+            target: "client",
+            language: "typescript",
             outputDirectory: "generated/client"
         },
         {
-            target: CodeGenTarget.Contract,
-            language: CodeGenLanguage.Solidity,
+            target: "contract",
+            language: "solidity",
             outputDirectory: "generated/contracts"
         }
     ]
