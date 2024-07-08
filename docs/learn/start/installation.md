@@ -14,12 +14,6 @@ Before you begin the installation process, ensure your system meets the followin
 - **Git**: You will need Git for version control and to clone repositories. Download it from [Git's official site](https://git-scm.com/downloads).
 - **A Text Editor**: We recommend using Visual Studio Code for a streamlined development experience. Download it from [Visual Studio Code's website](https://code.visualstudio.com/).
 
-:::tip
-
-Download the [Subjektify VSCode extension](vscode:extension/subjektify.subjekt-vscode-extension) for a streamlined development experience.
-
-:::
-
 ## Scaffold a New Namespace
 
 To start a new Subjektify project, run the following command in your project directory:
