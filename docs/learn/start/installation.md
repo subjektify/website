@@ -16,7 +16,7 @@ Before you begin the installation process, ensure your system meets the followin
 
 :::tip
 
-Download the [Subjektify VSCode extension](#) for a streamlined development experience.
+Download the [Subjektify VSCode extension](vscode:extension/subjektify.subjekt-vscode-extension) for a streamlined development experience.
 
 :::
 
