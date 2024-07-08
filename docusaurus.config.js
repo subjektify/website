@@ -169,7 +169,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Subjektify Labs`,
+        copyright: `Copyright © ${new Date().getFullYear()} Subjektify Labs Ltd.`,
       },
       prism: {
         theme: lightCodeTheme,
