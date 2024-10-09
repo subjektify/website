@@ -8,7 +8,7 @@ The Subjekt model describes the Subjekt's semantic model and the files used to c
 
 ## Subjekt Overview
 
-The Subjekt model can be represented in various forms, including as a semantic model, through the Interface Definition Language (IDL), and as an Abstract Syntax Tree (AST) in JSON format.
+The Subjekt model can be represented in various forms, including a semantic model, through the Interface Definition Language (IDL), and as an Abstract Syntax Tree (AST) in JSON format.
 
 ![Subjekt Overview](./SubjektOverview.svg)
 
@@ -167,3 +167,5 @@ subjekt.example.foo#ExampleShapeName$memberName
 ## Traits
 
 ## Prelude
+
+All Subjekt models include a *prelude*. A prelude defines all types and traits defined in the core specification. Shapes in the prelude do not need to reference subjektify's default namespace when usin the Subjekt IDL. However, the JSON AST model requires the namespace to be defined for all shape IDs. The complete prelude can be [found here](/docs/reference/subjekt/prelude).
